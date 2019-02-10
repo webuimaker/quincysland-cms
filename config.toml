@@ -8,6 +8,7 @@ theme = "hugo-hero-theme"
   google_analytics_id=""
 
   logo = "img/logo.png"
+  logo_small = "img/logo.png"
 
   [params.homepage_meta_tags]
     meta_description = "Quincy searches the country for the best land deals and shares them with you!"
