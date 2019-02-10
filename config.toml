@@ -17,9 +17,9 @@ theme = "hugo-hero-theme"
     meta_og_url = "https://quincysland.com"
     meta_og_image = "static/img/quincys_logo.png"
     meta_og_description = "Quincy searches the country for the best land deals and shares them with you!"
-#    meta_twitter_card = "summary"
-#    meta_twitter_site = "@zerostaticio"
-#    meta_twitter_creator = "@zerostaticio"
+#    meta_twitter_card = ""
+#    meta_twitter_site = "@"
+#    meta_twitter_creator = "@"
 
 # [[menu.main]]
 #	name = "Services"
@@ -27,7 +27,7 @@ theme = "hugo-hero-theme"
 #    weight = 1
 
 [[menu.main]]
-    name = "Properties"
+    name = "Land For Sale"
     url = "/properties/"
     weight = 1
 
