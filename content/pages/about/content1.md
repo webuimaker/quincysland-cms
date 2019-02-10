@@ -5,6 +5,7 @@ background: 'https://source.unsplash.com/zglUlG8k47I/1600x500'
 button: ''
 ---
 
-## No Limits
+## Who's Quincy?
 
-Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+Quincy is a stuffed beaver that travels the world looking for adventure! While he's out there conquering peaks
+he sends us home lots of pictures, and tells us about all the great lands he's visited. We turn this into amazing deals for you to have your own adventures on!
