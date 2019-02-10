@@ -1,9 +1,9 @@
 ---
-title: 'Our Difference'
+title: "About Us"
 weight: 2
 background: ''
 button: 'About Us'
 buttonLink: 'about'
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+Quincy's Land is a collection of Land for Sale available via Direct Closing with easy payment plans.
