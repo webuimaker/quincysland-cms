@@ -1,8 +1,9 @@
 ---
 title: '1.5 Flat Acres in Deming NM'
-date: 2018-11-18T12:33:46+10:00
+date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 3
+weight: 1
+downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/sombra-rd'
 heroHeading: '1.5 Acres in Deming NM'
 heroSubHeading: 'Deming Ranchettes Subdivion in Luna County'
 heroBackground: 'img/properties/sombra/sombra-3.jpg'

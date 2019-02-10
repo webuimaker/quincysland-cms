@@ -10,6 +10,11 @@
       <div class="work work-single">
         <div class="content">{{.Content}}</div>
       </div>
+      {{ if .Params.downPayLink }}
+      <div class="work work-single">
+          <a class="button" href="{{ .Params.downPayLink }}" role="button">Buy Now</a>
+      </div>
+      {{ end }}
     </div>
     {{ if .Params.images }}
     <div class="col-12 pt-4 pt-md-10">
