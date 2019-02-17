@@ -34,7 +34,7 @@ We have 3 adjoining half acre lots for sale that we are selling together. These 
 - APN: 3047140069469, 3047140057469, 3047140046469
 - LEGAL DESCRIPTION: Tracts numbered Thirty Eight (38), Thirty Nine (39) and Forty (40), Block numbered Eighteen (18), Unit numbered Seventeen (17), DEMING RANCHETTES.
 
-### COORDINATES:
+### Coordinates:
 Approximate Four Corners of Property:
 
 * 32.2271514, -107.6850318
