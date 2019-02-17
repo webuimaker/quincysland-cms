@@ -19,7 +19,7 @@ Deming isn’t the only place nearby. Travel 15 minutes east and you will find h
 
 We have 3 adjoining half acre lots for sale that we are selling together. These are undeveloped lots that can be used for building or a place to RV/Tent. These are residentially zoned lots for Single Family Residences. Utilities are in the area with electricity being right down the road (only a third of a mile away!) Water and Septic would have to be installed for building to occur. If Water and Septic are put in, you can stay in an RV up to 240 days each year. Without these utilities you are able to stay for 30 days per year. Come stay for the winter, or stay a lifetime! 
 
-### Property Details:
+### Property Details
 
 - ANNUAL TAXES: $40.00 in 2018
 - ZONING: Residential 
@@ -34,7 +34,7 @@ We have 3 adjoining half acre lots for sale that we are selling together. These 
 - APN: 3047140069469, 3047140057469, 3047140046469
 - LEGAL DESCRIPTION: Tracts numbered Thirty Eight (38), Thirty Nine (39) and Forty (40), Block numbered Eighteen (18), Unit numbered Seventeen (17), DEMING RANCHETTES.
 
-### Coordinates:
+### Coordinates
 Approximate Four Corners of Property:
 
 * 32.2271514, -107.6850318
