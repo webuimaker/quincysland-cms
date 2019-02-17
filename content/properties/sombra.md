@@ -36,10 +36,11 @@ We have 3 adjoining half acre lots for sale that we are selling together. These 
 
 ### COORDINATES:
 Approximate Four Corners of Property:
-- 32.2271514, -107.6850318
-- 32.226625, -107.6850197
-- 32.2266216, -107.6839166
-- 32.2271475, -107.6839294
+
+* 32.2271514, -107.6850318
+* 32.226625, -107.6850197
+* 32.2266216, -107.6839166
+* 32.2271475, -107.6839294
 
 ### Utility Info
 - IMPROVEMENTS: None
