@@ -19,46 +19,38 @@ Deming isn’t the only place nearby. Travel 15 minutes east and you will find h
 
 We have 3 adjoining half acre lots for sale that we are selling together. These are undeveloped lots that can be used for building or a place to RV/Tent. These are residentially zoned lots for Single Family Residences. Utilities are in the area with electricity being right down the road (only a third of a mile away!) Water and Septic would have to be installed for building to occur. If Water and Septic are put in, you can stay in an RV up to 240 days each year. Without these utilities you are able to stay for 30 days per year. Come stay for the winter, or stay a lifetime! 
 
-Property Details:
+### Property Details:
 
-SUBDIVISION: Deming Ranchettes
-STREET ADDRESS: Sombra Rd
-COUNTY: Luna
-CITY: Deming
-STATE: New Mexico
-ZIP CODE: 88030
-ACREAGE: 1.5
-ELEVATION: 0
-APN: 3047140069469, 3047140057469, 3047140046469
-LEGAL DESCRIPTION: Tracts numbered Thirty Eight (38), Thirty Nine (39) and Forty (40), Block numbered Eighteen (18), Unit numbered Seventeen (17), DEMING RANCHETTES.
+- ANNUAL TAXES: $40.00 in 2018
+- ZONING: Residential 
+- SUBDIVISION: Deming Ranchettes
+- STREET ADDRESS: Sombra Rd
+- COUNTY: Luna
+- CITY: Deming
+- STATE: New Mexico
+- ZIP CODE: 88029
+- ACREAGE: 1.5
+- ELEVATION: 0
+- APN: 3047140069469, 3047140057469, 3047140046469
+- LEGAL DESCRIPTION: Tracts numbered Thirty Eight (38), Thirty Nine (39) and Forty (40), Block numbered Eighteen (18), Unit numbered Seventeen (17), DEMING RANCHETTES.
 
-
-COORDINATES:
+### COORDINATES:
 Approximate Four Corners of Property:
-32.2271514, -107.6850318
-32.226625, -107.6850197
-32.2266216, -107.6839166
-32.2271475, -107.6839294
+- 32.2271514, -107.6850318
+- 32.226625, -107.6850197
+- 32.2266216, -107.6839166
+- 32.2271475, -107.6839294
 
-ANNUAL TAXES: $40.00 in 2018
-ZONING: Residential 
-IMPROVEMENTS: None
-ACCESS: Maintained Dirt roads throughout subdivision
-ELECTRIC: There is power at a nearby property appx a third of a mile away; or use solar. 
-WATER: Well would have to be installed 
-SEWER: Septic would have to be installed
+### Utility Info
+- IMPROVEMENTS: None
+- ACCESS: Maintained Dirt roads throughout subdivision
+- ELECTRIC: There is power at a nearby property appx a third of a mile away; or use solar. 
+- WATER: Well would have to be installed 
+- SEWER: Septic would have to be installed
 
-
-Pricing Details
-DOWN PAYMENT: $ 120
-MONTHLY PAYMENT: $ 76
-TERM- 48 Months
-DOCUMENT PREPARATION FEE: $ 250
-
-
-If Paying CASH then the discounted price is $2,700 (plus $250 Doc Fee)
-
-Property Address: Sombra Rd
-Property City: Deming
-Zip Code: 88030
-Acreage: 1.50
+### Pricing Details
+- DOWN PAYMENT: $ 197
+- MONTHLY PAYMENT: $ 142
+- TERM: 24 Months
+- DOCUMENT PREPARATION FEE: $ 250
+- CASH Discount: $2700
