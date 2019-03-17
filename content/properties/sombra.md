@@ -1,15 +1,15 @@
 ---
-title: '1.5 Flat Acres in Deming NM'
+title: 'SOLD - 1.5 Flat Acres in Deming NM'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
-downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/sombra-rd'
-heroHeading: '1.5 Acres in Deming NM'
+heroHeading: '1.5 Acres in Deming NM - SOLD'
 heroSubHeading: 'Deming Ranchettes Subdivion in Luna County'
 heroBackground: 'img/properties/sombra/sombra-3.jpg'
 thumbnail: 'img/properties/sombra/sombra-3.jpg'
 images: ['img/properties/sombra/sombra-1.jpg', 'img/properties/sombra/sombra-2.jpg', 'img/properties/sombra/sombra-3.jpg', 'img/properties/sombra/sombra-4.jpg', 'img/properties/sombra/sombra-5.jpg', 'img/properties/sombra/sombra-6.jpg', 'img/properties/sombra/sombra-7.jpg']
 ---
+This property is no longer available, but if it looks like just the place for you, please get in touch and we will see if we can help you get down to New Mexico!
 
 Take in the amazing mountain views from your own slice of heaven in the Deming Ranchettes subdivision of southwestern New Mexico! This property is just southeast of Deming, and only a 15 minutes drive to the middle of town! 
 
