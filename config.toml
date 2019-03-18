@@ -7,8 +7,8 @@ theme = "hugo-hero-theme"
 [params]
   google_analytics_id=""
 
-  logo = "img/logo.png"
-  logo_small = "img/logo.png"
+  logo = "img/logo.svg"
+  logo_small = "img/logo-small.svg"
   favicon = "img/favicon.ico"
 
   [params.homepage_meta_tags]
