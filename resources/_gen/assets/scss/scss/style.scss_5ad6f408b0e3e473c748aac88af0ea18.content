@@ -5615,18 +5615,18 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #1c3ed3; }
+        color: #D40000; }
         .main-menu > ul > li > a:hover {
-          background: #1c3ed3;
+          background: #D40000;
           color: #ffffff;
           text-decoration: none; }
       .main-menu > ul > li.active > a {
-        background: #1c3ed3;
+        background: #DF0000;
         text-decoration: none;
         color: #ffffff; }
         .main-menu > ul > li.active > a:hover {
           text-decoration: none;
-          background: #1c3ed3;
+          background: #DF0000;
           transition: all 225ms ease-in 0s;
           color: #ffffff; }
 
