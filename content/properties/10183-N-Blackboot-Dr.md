@@ -3,13 +3,15 @@ title: '0.23 Acre Corner lot with utilities!'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
-heroHeading: 'Ready to build home sight'
+heroHeading: 'Ready to build home site'
 heroSubHeading: 'Plenty to see and do right from your own front door'
 heroBackground: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
 thumbnail: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
 images: ['img/properties/10183-n-blackboot-dr/blackboot-1.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-2.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-3.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-4.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-5.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-6.jpg']
 ---
-This great corner lot is the perfect place to build! Water and electric already run right up to the property line, so it'll be an easy hookup! The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages. 
+This great corner lot is the perfect place to build! Water and electric already run right up to the property line, so it'll be an easy hookup!
+
+The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages. 
 
 Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
 
@@ -18,6 +20,7 @@ From this piece of land, it won't take very long to get to many great destinatio
 - 1 hour to Las Vegas!
 - 2-hour drive to Phoenix 
 
+Some of the included pictures weren't taken at the parcel, but are representative of the area.
 
 ### Property Details
 

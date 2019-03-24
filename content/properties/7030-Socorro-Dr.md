@@ -3,13 +3,15 @@ title: '0.23 Acre Investment Property in Golf Community!'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
-heroHeading: 'Amazing views and a busy social calendar'
+heroHeading: 'Amazing views and a plenty of activities'
 heroSubHeading: '0.23 Acres in the amazing Valle Vista development'
 heroBackground: 'img/properties/7030-socorro-dr/socorro-1.jpg'
 thumbnail: 'img/properties/7030-socorro-dr/socorro-1.jpg'
 images: ['img/properties/7030-socorro-dr/socorro-1.jpg', 'img/properties/7030-socorro-dr/socorro-2.jpg', 'img/properties/7030-socorro-dr/socorro-3.jpg', 'img/properties/7030-socorro-dr/socorro-4.jpg', 'img/properties/7030-socorro-dr/socorro-5.png', 'img/properties/7030-socorro-dr/socorro-6.jpg']
 ---
-Be the first on your street! This .23 acre lot is located in Valle Vista Golf development.  Power and water are nearby making this an absolute steal!  Don’t let this deal pass you by! Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!
+Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!
+
+Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!
 
 This property also would make a great home base for exploring the famous RT-66 that starts nearby!
 
@@ -20,6 +22,7 @@ From this piece of land, it won't take very long to get to many great destinatio
 - 1 hour to Las Vegas!
 - 2-hour drive to Phoenix 
 
+Some of the included pictures weren't taken at the parcel, but are representative of the area.
 
 ### Property Details
 
@@ -77,3 +80,4 @@ Approximate Four Corners of Property:
 - Recorder/Clerk: 	(928) 753-0701      https://www.mohavecounty.us/ContentPage.aspx?id=129
 - Planning / Zoning:	(928) 757-0904  https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=367
 - GIS Website	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
+
