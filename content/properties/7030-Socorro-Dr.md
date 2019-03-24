@@ -1,5 +1,5 @@
 ---
-title: '0.23 Acre Investment Property in Golf Community!'
+title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1

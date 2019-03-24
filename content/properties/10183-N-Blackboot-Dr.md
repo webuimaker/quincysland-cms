@@ -1,5 +1,5 @@
 ---
-title: '0.23 Acre Corner lot with utilities!'
+title: '0.23 Acre Corner lot with utilities'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
