@@ -62,9 +62,9 @@ Approximate Four Corners of Property:
 
 ### Pricing Details
 - DOWN PAYMENT: $ 199
-- MONTHLY PAYMENT: $ 99
-- TERM: 36 Months
-- DOCUMENT PREPARATION FEE: $ 250
+- MONTHLY PAYMENT: $99
+- TERM: 60 Months
+- DOCUMENT PREPARATION FEE: $250
 - TOTAL: $6389
 - CASH Discount: $3,999
 

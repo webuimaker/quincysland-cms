@@ -59,12 +59,12 @@ Approximate Four Corners of Property:
 - SEWER: Septic is required for single family homes and would have to be installed.
 
 ### Pricing Details
-- DOWN PAYMENT: $ 199
-- MONTHLY PAYMENT: $ 99
-- TERM: 36 Months
-- DOCUMENT PREPARATION FEE: $ 250
-- TOTAL: $6389
-- CASH Discount: $3,999
+- DOWN PAYMENT: $199
+- MONTHLY PAYMENT: $149 
+- TERM: 60 Months
+- DOCUMENT PREPARATION FEE: $250
+- TOTAL: $9339
+- CASH Discount: $5,999
 
 ### Community Info
 - Valle Vista Golf Course:  (978) 723-3701      http://vallevistart66az.com/
