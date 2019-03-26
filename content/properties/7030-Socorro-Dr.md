@@ -2,7 +2,9 @@
 title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 1
+weight: 2
+cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
+termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
 heroHeading: 'Amazing views and a plenty of activities'
 heroSubHeading: '0.23 Acres in the amazing Valle Vista development'
 heroBackground: 'img/properties/7030-socorro-dr/socorro-1.jpg'

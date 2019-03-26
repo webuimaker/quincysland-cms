@@ -11,12 +11,18 @@
       <div class="work work-single">
         <div class="content">{{.Content}}</div>
       </div>
-      {{ if .Params.downPayLink }}
-      <div class="work work-single">
-          <a class="button" href="{{ .Params.downPayLink }}" role="button">Buy Now</a>
+      <div class="row">
+        {{ if .Params.cashDownPayLink }}
+        <div class="work work-single">
+            <a class="button-blue" href="{{ .Params.cashDownPayLink }}" role="button">Add Cash to Cart</a>
+        </div>
+        {{ end }}
+        {{ if .Params.termsDownPayLink }}
+        <div class="work work-single">
+            <a class="button-blue" href="{{ .Params.termsDownPayLink }}" role="button">Add Owner Financing to Cart</a>
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
-    </div>
     {{ if .Params.images }}
     <div class="col-12 pt-4 pt-md-10">
       <div class="masonry">

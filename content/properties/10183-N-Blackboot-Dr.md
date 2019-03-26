@@ -3,6 +3,8 @@ title: '0.23 Acre Corner lot with utilities'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
+cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
+termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
 heroHeading: 'Ready to build home site'
 heroSubHeading: 'Plenty to see and do right from your own front door'
 heroBackground: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
