@@ -2,7 +2,7 @@
 title: 'SOLD - 1.5 Flat Acres in Deming NM'
 date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 1
+weight: 3
 heroHeading: '1.5 Acres in Deming NM - SOLD'
 heroSubHeading: 'Deming Ranchettes Subdivion in Luna County'
 heroBackground: 'img/properties/sombra/sombra-3.jpg'
