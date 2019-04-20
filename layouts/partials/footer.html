@@ -1,8 +1,18 @@
 <div class="footer">
   <div class="container">
-    <div class="row footer-title">
-      <p>Want to be the first to hear about Quincy's new finds?</p>
-      <p><a href="http://eepurl.com/gkZr_P">Click Here to get on our list!</a></p>
-    </div>
+    <!-- Default form subscription -->
+    <form class="text-center border border-light p-1" name="buyerslist" method="POST" data-netlify="true" netlify-honeypot='beezknees'>
+        <p class="hidden">
+          <label>Fill this out if you're a drone: <input name="beezknees" /></label>
+        </p>
+        <p class="footer-title p-2">Join our VIP Buyer's List to be the first to hear about Quincy's new finds</p>
+        <!-- Name -->
+        <input type="text" name="name" class="form-control mb-4" placeholder="Your Name">
+        <!-- Email -->
+        <input type="email" name="email" class="form-control mb-4" placeholder="Your E-mail">
+        <!-- Sign in button -->
+        <button class="btn btn-info btn-block" type="submit">Subscribe</button>
+    </form>
+    <!-- Default form subscription -->
   </div>
 </div>
