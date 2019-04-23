@@ -25,10 +25,13 @@
       </div>
     {{ if .Params.images }}
     <div class="col-12 pt-4 pt-md-10">
+      <p>Images will open in a new tab.</p>
       <div class="masonry">
         {{ range .Params.images }}
           <div class="work-image item">
-            <img src="{{ . | relURL }}"/>
+            <a href="{{ . | relURL }}" target="_blank">
+              <img src="{{ . | relURL }}"/>
+            </a>
           </div>
         {{ end }}
       </div>
