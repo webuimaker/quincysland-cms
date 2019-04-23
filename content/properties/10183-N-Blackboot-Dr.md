@@ -9,7 +9,20 @@ heroHeading: 'Ready to build home site'
 heroSubHeading: 'Plenty to see and do right from your own front door'
 heroBackground: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
 thumbnail: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
-images: ['img/properties/10183-n-blackboot-dr/blackboot-1.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-2.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-3.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-4.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-5.jpg', 'img/properties/10183-n-blackboot-dr/blackboot-6.jpg']
+images: [
+    'img/properties/10183-n-blackboot-dr/blackboot-1.jpg',
+    'img/properties/10183-n-blackboot-dr/blackboot-2.jpg',
+    'img/properties/10183-n-blackboot-dr/blackboot-3.jpg',
+    'img/properties/10183-n-blackboot-dr/blackboot-4.jpg',
+    'img/properties/10183-n-blackboot-dr/blackboot-5.jpg',
+    'img/properties/10183-n-blackboot-dr/blackboot-6.jpg',
+    'img/properties/10183-n-blackboot-dr/33313141-1.jpg',
+    'img/properties/10183-n-blackboot-dr/33313141-2.jpg',
+    'img/properties/10183-n-blackboot-dr/sat1.png',
+    'img/properties/10183-n-blackboot-dr/sat2.png', 
+    'img/properties/10183-n-blackboot-dr/sat3.png', 
+    'img/properties/10183-n-blackboot-dr/sat4.png', 
+]
 ---
 This great corner lot is the perfect place to build! Water and electric already run right up to the property line, so it'll be an easy hookup!
 
@@ -18,9 +31,10 @@ The Valle Vista community features an 18 Hole Championship Golf Course complete 
 Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
 
 From this piece of land, it won't take very long to get to many great destinations:
-- 45 minutes to The Grand Canyon
-- 1 hour to Las Vegas!
-- 2-hour drive to Phoenix 
+
+* 1.5 hours to The Grand Canyon
+* 2 hours to Las Vegas!
+* 3 hour drive to Phoenix 
 
 Some of the included pictures weren't taken at the parcel, but are representative of the area.
 
@@ -47,10 +61,10 @@ Some of the included pictures weren't taken at the parcel, but are representativ
 ### Coordinates
 Approximate Four Corners of Property:
 
-* 35.418686, -113.866970 NW
-* 35.418593, -113.866701 NE
-* 35.418513, -113.866669 SE
-* 35.418360, -113.866755 SW
+* 35.4185972, -113.866649 NE
+* 35.4183778, -113.866761 SE
+* 35.4184944, -113.867094 SW
+* 35.4187167, -113.866988 NW
 
 ### Utility Info
 - IMPROVEMENTS: None
