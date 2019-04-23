@@ -7,9 +7,25 @@ cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down
 termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
 heroHeading: 'Amazing views and a plenty of activities'
 heroSubHeading: '0.23 Acres in the amazing Valle Vista development'
-heroBackground: 'img/properties/7030-socorro-dr/socorro-1.jpg'
-thumbnail: 'img/properties/7030-socorro-dr/socorro-1.jpg'
-images: ['img/properties/7030-socorro-dr/socorro-1.jpg', 'img/properties/7030-socorro-dr/socorro-2.jpg', 'img/properties/7030-socorro-dr/socorro-3.jpg', 'img/properties/7030-socorro-dr/socorro-4.jpg', 'img/properties/7030-socorro-dr/socorro-5.png', 'img/properties/7030-socorro-dr/socorro-6.jpg']
+heroBackground: 'img/properties/7030-socorro-dr/33313075-14.jpg'
+thumbnail: 'img/properties/7030-socorro-dr/33313075-14.jpg'
+images: [
+    'img/properties/7030-socorro-dr/33313075-1.jpg',
+    'img/properties/7030-socorro-dr/33313075-2.jpg',
+    'img/properties/7030-socorro-dr/33313075-3.jpg',
+    'img/properties/7030-socorro-dr/33313075-4.jpg',
+    'img/properties/7030-socorro-dr/33313075-6.jpg',
+    'img/properties/7030-socorro-dr/33313075-7.jpg',
+    'img/properties/7030-socorro-dr/33313075-8.jpg',
+    'img/properties/7030-socorro-dr/33313075-10.jpg',
+    'img/properties/7030-socorro-dr/33313075-12.jpg',
+    'img/properties/7030-socorro-dr/33313075-14.jpg',
+    'img/properties/7030-socorro-dr/33313075-15.jpg',
+    'img/properties/7030-socorro-dr/33313075-16.jpg',
+    'img/properties/7030-socorro-dr/33313075-17.jpg',
+    'img/properties/7030-socorro-dr/33313075-18.jpg',
+    'img/properties/7030-socorro-dr/33313075-19.jpg'
+]
 ---
 Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!
 
@@ -20,9 +36,9 @@ This property also would make a great home base for exploring the famous RT-66 t
 Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
 
 From this piece of land, it won't take very long to get to many great destinations:
-- 45 minutes to The Grand Canyon
-- 1 hour to Las Vegas!
-- 2-hour drive to Phoenix 
+- 1.5 hours to The Grand Canyon
+- 2 hours to Las Vegas!
+- 3 hour drive to Phoenix 
 
 Some of the included pictures weren't taken at the parcel, but are representative of the area.
 
