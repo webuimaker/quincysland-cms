@@ -5,6 +5,19 @@ draft: false
 weight: 1
 cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
 termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
+payments:
+    cash:
+        title: Cash Price
+        price: $5,999
+        priceDiscount: $9,339
+        downPayment: $449 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
+    terms:
+        title: Finance Terms
+        price: $149/mo
+        priceNote: For 60 Months
+        downPayment: $449 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
 heroHeading: 'Ready to build home site'
 heroSubHeading: 'Plenty to see and do right from your own front door'
 heroBackground: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
@@ -73,14 +86,6 @@ Approximate Four Corners of Property:
 - ELECTRIC: Electric lines near by. Call Mohave Electric Co-Op for more information: (928) 763-1100
 - WATER: Water already exists near by. Call Mohave County water Authority for more details. (928) 453-6660
 - SEWER: Septic is required for single family homes and would have to be installed.
-
-### Pricing Details
-- DOWN PAYMENT: $199
-- MONTHLY PAYMENT: $149 
-- TERM: 60 Months
-- DOCUMENT PREPARATION FEE: $250
-- TOTAL: $9339
-- CASH Discount: $5,999
 
 ### Community Info
 - Valle Vista Golf Course:  (978) 723-3701      http://vallevistart66az.com/

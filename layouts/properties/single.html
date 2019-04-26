@@ -6,25 +6,55 @@
 
 {{ define "main" }}
 {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
-<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
-
-  <div class="row justify-content-start">
+  {{ if .Params.payments }} 
+  <div class="container mt-3 mb-0">
+    <h2>Payment Options</h2>
+    {{ range $payment := .Params.payments }}
+      <div class="row">
+        <div class="col-sm-12">
+          <h4>{{ $payment.title }}</h4>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 offset-sm-1">
+            <span>{{ $payment.price }}</span>
+          </div>
+          <div class="col-sm-2">
+            {{ if $payment.priceNote}}
+            <span>{{ $payment.priceNote }}</span>
+            {{end}}
+            {{ if $payment.priceDiscount}}
+            <span><del>{{ $payment.priceDiscount }}</del></span>
+            {{end}}
+          </div>
+          <div class="col-sm-2">
+            <span>{{ $payment.downPayment }}</span>
+          </div>
+          <div class="col-sm-1">
+            <a class="button-blue" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="row">
+        <div class="col-sm-6">
+          <h5>Payment Note(s)</h5>
+          <p class="mb-0">
+              If you are interested in reserving this parcel,
+click “Reserve Now” button for any of the payment options.
+You will be redirected to our payment page to make the initial
+reservation payment. Downpayment amount includes a $250 document
+preparation fee. 
+          </p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="container pt-4 pt-md-10 pb-4 pb-md-10">
     <div class="col-12 col-md-8">
       <div class="work work-single">
         <div class="content">{{.Content}}</div>
       </div>
-      <div class="row">
-        {{ if .Params.cashDownPayLink }}
-        <div class="work work-single">
-            <a class="button-blue" href="{{ .Params.cashDownPayLink }}" role="button">Add Cash to Cart</a>
-        </div>
-        {{ end }}
-        {{ if .Params.termsDownPayLink }}
-        <div class="work work-single">
-            <a class="button-blue" href="{{ .Params.termsDownPayLink }}" role="button">Add Owner Financing to Cart</a>
-        </div>
-        {{ end }}
-      </div>
+    </div>
     {{ if .Params.images }}
     <div class="container gallery-container">
       <div class="gallery">

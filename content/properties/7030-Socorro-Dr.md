@@ -3,10 +3,21 @@ title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 2
-cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
-termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
+payments:
+    cash:
+        title: Cash Price
+        price: $3,999
+        priceDiscount: $6,389
+        downPayment: $449 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
+    terms:
+        title: Finance Terms
+        price: $99/mo
+        priceNote: For 60 Months
+        downPayment: $449 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
 heroHeading: 'Amazing views and a plenty of activities'
-heroSubHeading: '0.23 Acres in the amazing Valle Vista development'
+heroSubHeading: 'Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!'
 heroBackground: 'img/properties/7030-socorro-dr/33313075-14.jpg'
 thumbnail: 'img/properties/7030-socorro-dr/33313075-14.jpg'
 images: [
@@ -27,8 +38,6 @@ images: [
     'img/properties/7030-socorro-dr/33313075-19.jpg'
 ]
 ---
-Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!
-
 Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!
 
 This property also would make a great home base for exploring the famous RT-66 that starts nearby!
@@ -77,14 +86,6 @@ Approximate Four Corners of Property:
 - ELECTRIC: Electric lines near by. Call Mohave Electric Co-Op for more information: (928) 763-1100
 - WATER: Water already exists near by. Call Mohave County water Authority for more details. (928) 453-6660
 - SEWER: Septic is required for single family homes and would have to be installed.
-
-### Pricing Details
-- DOWN PAYMENT: $ 199
-- MONTHLY PAYMENT: $99
-- TERM: 60 Months
-- DOCUMENT PREPARATION FEE: $250
-- TOTAL: $6389
-- CASH Discount: $3,999
 
 ### Community Info
 - Valle Vista Golf Course:  (978) 723-3701      http://vallevistart66az.com/
