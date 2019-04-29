@@ -62,7 +62,9 @@ Some of the included pictures weren't taken at the parcel, but are representativ
 - ZIP CODE: 86401
 - SUBDIVISION: Valle Vista
 - ZONING: R-O (Single-Family Residential / Manuafactured Homes Prohibited)
-- Lot #: Lot 2687
+- STRUCTURE LIMITATIONS: 60% of Lot size
+- ANIMAL PRIVILEGES: No Livestock
+- LOT #: Lot 2687
 - ELEVATION: 3,103 feet
 - TERRAIN: Plain
 - ANNUAL TAXES (Approx): $27.14
@@ -97,6 +99,6 @@ Approximate Four Corners of Property:
 - Assessor: 	(928) 753-0703      https://www.mohavecounty.us/ContentPage.aspx?id=111
 - Treasurer: (928) 753-0737      https://www.mohavecounty.us/ContentPage.aspx?id=132
 - Recorder/Clerk: 	(928) 753-0701      https://www.mohavecounty.us/ContentPage.aspx?id=129
-- Planning / Zoning:	(928) 757-0904  https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=367
+- Planning / Zoning:	(928) 757-0903 https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=360 
 - GIS Website	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
 
