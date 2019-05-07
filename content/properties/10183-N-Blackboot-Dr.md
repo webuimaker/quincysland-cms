@@ -9,12 +9,12 @@ payments:
     cash:
         title: Cash Price
         price: $4,499
-        priceDiscount: $8,311
+        priceDiscount: $7,351
         downPayment: $250 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
     terms:
         title: Finance Terms
-        price: $169/mo
+        price: $149/mo
         priceNote: For 48 Months
         downPayment: $449 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
