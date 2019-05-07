@@ -10,7 +10,7 @@ payments:
         title: Cash Price
         price: $4,499
         priceDiscount: $8,311
-        downPayment: $249 Down Payment
+        downPayment: $250 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
     terms:
         title: Finance Terms
