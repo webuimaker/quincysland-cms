@@ -2,46 +2,80 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Quincy's Land"
 themesDir = "themes"
-theme = "hugo-hero-theme"
-
-[params]
-  google_analytics_id=""
-
-  logo = "img/logo.svg"
-  logo_small = "img/logo-small.svg"
-  favicon = "img/favicon.ico"
-
-  [params.homepage_meta_tags]
-    meta_description = "Quincy searches the country for the best land deals and shares them with you!"
-    meta_og_title = "Quincy's Land"
-    meta_og_type = "website"
-    meta_og_url = "https://quincysland.com"
-    meta_og_image = "static/img/quincys_logo.png"
-    meta_og_description = "Quincy searches the country for the best land deals and shares them with you!"
-#    meta_twitter_card = ""
-#    meta_twitter_site = "@"
-#    meta_twitter_creator = "@"
-
-# [[menu.main]]
-#	name = "Services"
-#	url = "/services/"
-#    weight = 1
-
-[[menu.main]]
-    name = "Land For Sale"
-    url = "/properties/"
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
+theme = "hugo-now-ui"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+#enableGitInfo = true
+googleAnalytics = ""
+disqusShortname = ""
 
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
-  pages = "/:filename/"
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About Us"
+    url = "/about/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 1
+[[menu.main]]
+    name = "FAQ"
+    url = "/faq/"
+    pre = "<i class='now-ui-icons business_bank'></i>"
+    weight = 2
+[[menu.main]]
+	identifier='phone'
+    name = "+1 (978) 226 3220"
+    url = "tel://978 226 3220"
+	pre = "<i class='fa fa-phone'></i>"
+    weight = 3
+      
+[[menu.footer]]
+    identifier = "home"
+    name = "Home"
+	url = "/"	
+    weight = 1
+[[menu.footer]]
+    identifier = "about"
+    name = "About Us"
+	url = "/about/"	
+    weight = 2
+[[menu.footer]]
+    identifier = "contact"
+    name = "Contact Us"
+	url = "/contact/"	
+    weight = 3
+[[menu.footer]]
+    identifier = "faq"
+    name = "FAQ"
+	url = "/faq/"	
+    weight = 4
+[[menu.footer]]
+    identifier = "privacy"
+    name = "Privacy Policy"
+	url = "/privacy/"	
+    weight = 5
+
+[params]
+#    logo = "img/logo.svg"
+#    logo_small = "img/logo-small.svg"
+#    favicon = "img/favicon.ico"
+
+	title = "AJ Land Finders LLC"
+    background = "/img/bg11.jpg"
+    tint = "blue"
+    custom_css = ["css/highlight.min.css"]
+    custom_js = []
+    date_format = "Mon, Jan 2, 2006"
+    description = "Sell your Land for Cash Today"
+
+	address = "PO BOX 16304"
+	citystate = "Hooksett, NH, 03106"
+	phone_styled = "+1 (978) 226 3220"
+	phone = "978 226 3220"
+	email = "aj.land.finders@gmail"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.10.0"
+    highlightCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+

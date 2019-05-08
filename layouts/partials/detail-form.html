@@ -1,0 +1,79 @@
+<!-- Step2 Form -->
+<div class="col-sm-12 align-left">
+    <h2 class="title title-up mt-0 pt-0 mb-1">We have only a couple more questions to help us learn more about your property…</h2>
+    <p class="font-italic mt-1">(It will only take a couple minutes, but will help us to make our offer more quickly and accurately.)</p>
+    <h6 class="mt-1 pb-4">If you would rather talk over the phone, give us a call now! <a href="tel://{{ $.Site.Params.phone }}">{{ $.Site.Params.phone_styled }}</a></h6> 
+    <div class="card text-left">
+        <form class="form" method="POST" action="/thankyou/" name="step2-sellers" data-netlify="true" netlify-honeypot="breathing-field">
+            <p class="hidden" style="height: 0; width: 0; position: absolute; visibility: hidden">
+                <label>Sell For Cash:<input name="breathing-field" /></label>
+            </p>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="inputApn">APN (Assessors Parcel Number)</label>
+                    <input type="text" class="form-control" id="inputApn" name="apn" required>
+                    <p class="form-text text-muted">You can find the APN on your deed or tax bill.</p>
+                </div>                
+                <div class="form-group">
+                    <label for="inputAddress">Street Address</label>
+                    <input type="text" class="form-control" id="inputAddress" name="address">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" name="city" required>
+                    <label for="inputCounty">County</label>
+                    <input type="text" class="form-control" id="inputCounty" name="county" required>                    
+                    <label for="inputState">State</label>
+                    <input type="text" class="form-control" id="inputState" name="state" required>
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" name="zip" required>
+                </div>                
+                <div class="form-group">
+                    <label for="inputSize">Parcel Size (Acres)</label>
+                    <input type="text" class="form-control" id="inputSize" name="size" required>                        
+                    <p class="form-text text-muted">1 acre = 43,560 square feet</p>
+                </div>
+                <div class="form-group">
+                    <label for="inputLong">How Long have you owned the property?</label>
+                    <input type="text" class="form-control" id="inputLong" name="timeOwned">                        
+                    <label for="inputCoOwn">Are there any other co-owners of this property?</label>
+                    <input type="text" class="form-control" id="inputCoOwn" name="timeCoOwn">                        
+                </div>                
+                <div class="form-group">
+                    <label for="inputUtil">Are there any utilities on the property?</label>
+                    <select name="inputUtil" class="form-control">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>                    
+                    </select>                    
+                    <label for="inputStruct">Are there any structures on the property?</label>
+                    <select name="inputStruct" class="form-control">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>                    
+                    </select>                    
+                </div>                                
+                <div class="form-group">
+                    <label for="inputAgent">Is the property currently listed with a realator? *</label>
+                    <select name="inputAgent" class="form-control">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>                    
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputSit">Tell us about your situation</label>
+                    <textarea type="text" class="form-control border" id="inputSit" name="situation"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="inputCall">Best time to Call?</label>
+                    <select name="inputCall" class="form-control">
+                        <option value="Anytime">Anytime</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">Afternoon</option>
+                        <option value="Evening">Evening</option>
+                    </select>
+                </div>                
+                <div class="text-center mt-0">
+                    <input type="submit" class="btn btn-primary btn-round btn-lg btn-block" value="Get My Cash Offer">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- End Step2 Form-->

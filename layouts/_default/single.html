@@ -1,0 +1,38 @@
+{{ define "title" }}
+<div class="container">
+  <div class="content-center">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="text-center">
+      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "body" }}
+<div class="row">
+  <div class="col-md-9 ml-auto mr-auto text-left">
+  {{ .Content }}
+  </div>   
+  {{ if .Params.img }}
+  <div class="col-sm-3 pb-3">
+    <img class="img img-raised" src="{{ .Params.img }}" alt="{{ .Title }}" />
+  </div>  
+  {{ end }}
+</div>
+{{ if .Params.mediumform }}
+<div class="row text-center">
+  {{partial "md-form" . }}          
+</div>
+{{ end }}
+{{ if .Params.detailform }}
+<div class="row text-center">
+  {{partial "detail-form" . }}          
+</div>
+{{ end }}
+{{ if .Params.contactform }}
+<div class="row text-center">
+  {{partial "contact-form" . }}          
+</div>
+{{ end }}
+{{ end }}
