@@ -3,6 +3,20 @@ title: 'SOLD - 1.5 Flat Acres in Deming NM'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 3
+county: "Luna"
+acreage: "1.5"
+status: "Sold"
+payments:
+    cash:
+        title: Cash Price
+        price: $2,700
+        priceDiscount: $3,605
+        downPayment: $250 Down Payment
+    terms:
+        title: Finance Terms
+        price: $142/mo
+        priceNote: For 24 Months
+        downPayment: $447 Down Payment
 heroHeading: '1.5 Acres in Deming NM - SOLD'
 heroSubHeading: 'Deming Ranchettes Subdivion in Luna County'
 heroBackground: 'img/properties/sombra/sombra-3.jpg'
@@ -48,10 +62,3 @@ Approximate Four Corners of Property:
 - ELECTRIC: There is power at a nearby property appx a third of a mile away; or use solar. 
 - WATER: Well would have to be installed 
 - SEWER: Septic would have to be installed
-
-### Pricing Details
-- DOWN PAYMENT: $ 197
-- MONTHLY PAYMENT: $ 142
-- TERM: 24 Months
-- DOCUMENT PREPARATION FEE: $ 250
-- CASH Discount: $2700

@@ -3,8 +3,9 @@ title: '0.23 Acre Corner lot with utilities'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 1
-cashDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
-termsDownPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
+county: "Mohave"
+acreage: "0.23"
+status: "Available"
 payments:
     cash:
         title: Cash Price

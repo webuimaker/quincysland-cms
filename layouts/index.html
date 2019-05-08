@@ -7,7 +7,7 @@
     {{ partial "nav" . }}
   </div>
   <div class="{{ .Params.wrapper | default "wrapper" }}">
-    <div class="page-header {{ .Params.headerstyle | default "page-header-medium"}}"
+    <div class="page-header {{ .Params.headerstyle | default "page-header-small"}}"
       filter-color="{{ .Param "tint" | default "orange" }}">
       <div class="page-header-image" data-parallax="false"
         style="background-image: url('{{ (.Param "background")  | (default "img/header.jpg" | absURL) }}');">
@@ -26,10 +26,22 @@
       </div>
     </div>
   </div>
-  <div>
-    <h1>Our Featured Properties</h1>
+  <div class="{{ .Params.about | default "about"}}">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <div class="col-12">
+          <h2>Our Featured Properties</h2>
+        </div>
+      </div>
+      <div class="row">
+        {{ range first 3 (where .Site.Pages "Section" "properties") }}
+        {{ partial "properties/summary" . }}
+        {{ end }}
+      </div>
+    </div>
   </div>
   {{ partial "footer" . }}
+  </div>
 </body>
 {{partial "javascript" . }}
 

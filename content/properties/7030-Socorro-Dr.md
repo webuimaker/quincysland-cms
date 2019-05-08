@@ -3,6 +3,9 @@ title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 2
+status: "Available"
+county: "Mohave"
+acreage: "0.23"
 payments:
     cash:
         title: Cash Price
