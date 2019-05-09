@@ -35,7 +35,7 @@
       </div>
       <div class="row">
         {{ range first 3 (where .Site.Pages "Section" "properties") }}
-        {{ partial "properties/summary" . }}
+        {{ partial "prop-summary" . }}
         {{ end }}
       </div>
     </div>

@@ -92,6 +92,37 @@
         }
     }
 }
+.properties-page{
+
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+
+    .header{
+        height: 20vh;
+        position: relative;
+
+        .container{
+            padding-top: 26vh;
+            color: #FFFFFF;
+            z-index: 2;
+            position: relative;
+        }
+
+        .share{
+            margin-top: 150px;
+        }
+        h1{
+            font-weight: 600;
+        }
+        .title{
+            color: $white-color;
+        }
+    }
+
+}
 
 // style for the profile page
 .profile-page{

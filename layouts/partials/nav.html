@@ -1,5 +1,5 @@
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="400">
+    <nav class="navbar navbar-expand-lg {{ .Site.Params.navcolor }} fixed-top {{ .Params.navstyle | default "navbar-transparent" }}" color-on-scroll="{{ .Params.colorOnScroll | default "400" }}">
         <div class="container">
             <div class="navbar-translate">
               <a class="navbar-logo" href="{{ .Site.BaseURL | relURL }}" title="{{.Site.Title}}" data-placement="bottom">

@@ -1,0 +1,36 @@
+{{ define "body" }}
+
+<div class="container mt-0">
+  <div class="row mt-0 pt-0">
+    <div class="col-sm-12 text-center">
+    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    <!-- List pages can get Content and yaml metadata from an _index.md -->
+    {{ with .Content }}<div class="article-style" itemprop="articleBody">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="container justify-content-center">
+  <div class="row">
+    {{ range .Paginator.Pages }}
+    {{ partial "prop-summary" . }}
+    {{ end }}
+  </div>
+</div>
+
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav>
+  <ul class="pager">
+    {{ if .Paginator.HasPrev }}
+    <li><a href="{{ .Paginator.Prev.URL | relURL }}">&laquo; Previous</a></li>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <li><a href="{{ .Paginator.Next.URL | relURL }}">Next &raquo;</a></li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
+
+<br />
+{{end}}

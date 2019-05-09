@@ -12,14 +12,14 @@ disqusShortname = ""
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About Us"
-    url = "/about/"
+    name = "Properties"
+    url = "/properties/"
     pre = "<i class='now-ui-icons design_app'></i>"
     weight = 1
 [[menu.main]]
-    name = "FAQ"
-    url = "/faq/"
-    pre = "<i class='now-ui-icons business_bank'></i>"
+    name = "About Us"
+    url = "/about/"
+    pre = "<i class='now-ui-icons design_app'></i>"
     weight = 2
 [[menu.main]]
 	identifier='phone'
@@ -58,6 +58,8 @@ disqusShortname = ""
 #    logo = "img/logo.svg"
 #    logo_small = "img/logo-small.svg"
 #    favicon = "img/favicon.ico"
+
+    navcolor = "bg-success"
 
 	title = "AJ Land Finders LLC"
     background = "/img/bg11.jpg"
