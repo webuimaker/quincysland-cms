@@ -60,14 +60,16 @@ disqusShortname = ""
 #    favicon = "img/favicon.ico"
 
     navcolor = "bg-success"
+    logo = "/img/logo.svg"
+    logo_small = "/img/logo-small.svg"
 
-	title = "AJ Land Finders LLC"
+	title = "Quincy's Land"
     background = "/img/bg11.jpg"
     tint = "blue"
     custom_css = ["css/highlight.min.css"]
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
-    description = "Sell your Land for Cash Today"
+    description = "Find your perfect property"
 
 	address = "PO BOX 16304"
 	citystate = "Hooksett, NH, 03106"
