@@ -1,0 +1,35 @@
+{{ define "title" }}
+{{ end }}
+
+{{ define "body" }}
+
+<div class="row">
+{{ partial "carousel" . }}
+<div>
+
+<div class="row">
+  <div class="col-md-9 ml-auto mr-auto text-left">
+  {{ .Content }}
+  </div>   
+  {{ if .Params.img }}
+  <div class="col-sm-3 pb-3">
+    <img class="img img-raised" src="{{ .Params.img }}" alt="{{ .Title }}" />
+  </div>  
+  {{ end }}
+</div>
+{{ if .Params.mediumform }}
+<div class="row text-center">
+  {{partial "md-form" . }}          
+</div>
+{{ end }}
+{{ if .Params.detailform }}
+<div class="row text-center">
+  {{partial "detail-form" . }}          
+</div>
+{{ end }}
+{{ if .Params.contactform }}
+<div class="row text-center">
+  {{partial "contact-form" . }}          
+</div>
+{{ end }}
+{{ end }}

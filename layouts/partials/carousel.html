@@ -1,0 +1,35 @@
+{{ $slides := ( .Params.Resources ) }}
+
+<div class="container">
+    <div id="carouselIndicators" class="carousel slide" data-wrap="true" data-keyboard="true">
+        <ol class="carousel-indicators">
+          {{ range $key, $value := $slides }}
+            {{ $active := "" }}
+            {{ if eq $key 0 }}
+              {{ $active = "active" }}
+            {{ end }}
+          <li data-target="#carouselIndicators" data-slide-to="{{ $key }}" class="{{ $active }}"></li>
+          {{ end }}          
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          {{ range $key, $value := $slides }}
+            {{ $active := "" }}
+            {{ if eq $key 0 }}
+              {{ $active = "active" }}
+            {{ end }}
+            <div class="carousel-item {{ $active }} ">
+                <img class="d-block w-100 h-100" src="{{ $value.src }}" alt="{{ $value.title }}">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>{{ $value.title }} </h5>
+              </div>
+            </div>
+          {{ end }}          
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <i class="now-ui-icons arrows-1_minimal-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <i class="now-ui-icons arrows-1_minimal-right"></i>
+        </a>
+    </div>
+</div>
