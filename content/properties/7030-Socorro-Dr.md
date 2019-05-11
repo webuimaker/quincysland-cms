@@ -3,9 +3,13 @@ title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 2
+# UI stuff
+headerstyle: "page-header-xtrasmall"
+class: "property-page"
+navstyle: ""
+colorOnScroll: 1
+# property data
 status: "Available"
-county: "Mohave"
-acreage: "0.23"
 payments:
     cash:
         title: Cash Price
@@ -19,31 +23,97 @@ payments:
         priceNote: For 36 Months
         downPayment: $449 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
-heroHeading: 'Amazing views and a plenty of activities'
-heroSubHeading: 'Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!'
-heroBackground: 'img/properties/7030-socorro-dr/33313075-14.jpg'
-thumbnail: 'img/properties/7030-socorro-dr/33313075-14.jpg'
-images: [
-    'img/properties/7030-socorro-dr/33313075-1.jpg',
-    'img/properties/7030-socorro-dr/33313075-2.jpg',
-    'img/properties/7030-socorro-dr/33313075-3.jpg',
-    'img/properties/7030-socorro-dr/33313075-4.jpg',
-    'img/properties/7030-socorro-dr/33313075-6.jpg',
-    'img/properties/7030-socorro-dr/33313075-7.jpg',
-    'img/properties/7030-socorro-dr/33313075-8.jpg',
-    'img/properties/7030-socorro-dr/33313075-10.jpg',
-    'img/properties/7030-socorro-dr/33313075-12.jpg',
-    'img/properties/7030-socorro-dr/33313075-14.jpg',
-    'img/properties/7030-socorro-dr/33313075-15.jpg',
-    'img/properties/7030-socorro-dr/33313075-16.jpg',
-    'img/properties/7030-socorro-dr/33313075-17.jpg',
-    'img/properties/7030-socorro-dr/33313075-18.jpg',
-    'img/properties/7030-socorro-dr/33313075-19.jpg'
-]
----
-Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!
+subtitle: "This property would make a great home base for exploring the famous RT-66 that starts nearby!"
+description: "Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!"
+thumbnail: '/img/properties/7030-socorro-dr/33313075-14.jpg'
+sections:
+  info:
+    state: "Arizona"
+    county: "Mohave"
+    acreage: "0.23"
+    nearest_city: "Kingman"
+    apn: 333-13-075
+    address: "7030 Socorro Dr"
+    zip: 86401 
+  features:
+    -
+      icon: fa-th-large
+      label: "ACRES"
+      data: "0.23"
+    -
+      icon: fa-th-large
+      label: "SUBDIVISION"
+      data: "Valle Vista"
+    -
+      icon: fa-th-large
+      label: "ZONING"
+      data: "Residential"
+    -
+      icon: fa-road
+      label: "ACCESS"
+      data: "Dirt / Gravel"
+    -
+      icon: fa-plug
+      label: "POWER"
+      data: "none"
+    -
+      icon: fa-tint
+      label: "WATER"
+      data: "None"
+    -
+      icon: fa-tint
+      label: "SEPTIC"
+      data: "None"
+    -
+      icon: fa-map-marker 
+      label: "COORDINATES"
+      data: "35.418659, -113.869277 NW"
 
-This property also would make a great home base for exploring the famous RT-66 that starts nearby!
+resources: 
+- src: "/img/properties/7030-socorro-dr/33313075-1.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-2.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-3.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title:
+- src: "/img/properties/7030-socorro-dr/33313075-4.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title:
+- src: "/img/properties/7030-socorro-dr/33313075-7.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-8.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-10.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-12.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-14.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-15.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-16.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-17.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-18.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-19.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+---
+
 
 Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
 
@@ -52,22 +122,8 @@ From this piece of land, it won't take very long to get to many great destinatio
 - 2 hours to Las Vegas!
 - 3 hour drive to Phoenix 
 
-Some of the included pictures weren't taken at the parcel, but are representative of the area.
-
 ### Property Details
-
-- ACREAGE: 0.23
-- APN: 333-13-075
-- ADDRESS: 7030 Soccorro Dr
-- CITY: Kingman
-- COUNTY: Mohave
-- STATE: Arizona
-- ZIP CODE: 86401
-- SUBDIVISION: Valle Vista
-- ZONING: R-O (Single-Family Residential / Manuafactured Homes Prohibited)
 - STRUCTURE LIMITATIONS: 60% of Lot size
-- ANIMAL PRIVILEGES: No Livestock
-- LOT #: Lot 2687
 - ELEVATION: 3,103 feet
 - TERRAIN: Plain
 - ANNUAL TAXES (Approx): $27.14

@@ -63,6 +63,8 @@ disqusShortname = ""
     logo = "/img/logo.svg"
     logo_small = "/img/logo-small.svg"
 
+    default_doc_fee = "250"
+
 	title = "Quincy's Land"
     background = "/img/bg11.jpg"
     tint = "blue"

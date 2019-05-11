@@ -3,33 +3,140 @@
 
 {{ define "body" }}
 
-<div class="row">
-{{ partial "carousel" . }}
-<div>
+<div class="row mt-0 pt-0">
+  {{ partial "carousel" . }}
+</div>
 
-<div class="row">
-  <div class="col-md-9 ml-auto mr-auto text-left">
-  {{ .Content }}
-  </div>   
-  {{ if .Params.img }}
-  <div class="col-sm-3 pb-3">
-    <img class="img img-raised" src="{{ .Params.img }}" alt="{{ .Title }}" />
-  </div>  
-  {{ end }}
+<div class="row pt-5">
+  <div class="col-md-9 text-left">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">{{ .Title }}</h1>
+        <h5 class="cart-title text-muted">{{ .Params.subtitle }}</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h3>Payment Options</h3>
+            {{ range $payment := .Params.payments }}
+            <div class="row mt-0 mb-0">
+              <div class="col">
+                <h4>{{ $payment.title }}</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <span>{{ $payment.price }}</span>
+                {{ if $payment.priceNote}}
+                <span>{{ $payment.priceNote }}</span>
+                {{end}}
+                {{ if $payment.priceDiscount}}
+                <span><del>{{ $payment.priceDiscount }}</del></span>
+                {{end}}
+              </div>
+              <div class="col-sm-4">
+                <span>{{ $payment.downPayment }}</span>
+              </div>
+              <div class="col-sm-4">
+                <a class="btn btn-large btn-info" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
+              </div>
+            </div>
+            <hr />
+            {{ end }}
+            <div class="row">
+              <div class="col-sm-12">
+                <h6 class="text-muted">Payment Note(s)</h6>
+                <p class="mb-0">
+                  If you are interested in reserving this parcel,
+                  click “Reserve Now” button for any of the payment options.
+                  You will be redirected to our payment page to make the initial
+                  reservation payment. Downpayment amount includes a ${{ $.Site.Params.default_doc_fee }} document
+                  preparation fee.
+                </p>
+              </div>
+            </div>
+      </div>
+      </li>
+      <li class="list-group-item">
+        <h3>Description</h3>
+        <p> {{ .Params.Description }} </p>
+      </li>
+      <li class="list-group-item">
+        <h3>Property Information</h3>
+        <div class="row">
+          <div class="col-2">
+            <span class="text-muted">SIZE</span>
+            <br>
+            <span>{{ .Params.sections.info.acreage }} acres</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">COUNTY</span>
+            <br>
+            <span>{{ .Params.sections.info.county }}</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">STATE</span>
+            <br>
+            <span>{{ .Params.sections.info.state }}</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">NEAREST CITY</span>
+            <br>
+            <span>{{ .Params.sections.info.nearest_city }}</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">PARCEL #</span>
+            <br>
+            <span>{{ .Params.sections.info.apn }}</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">ADDRESS</span>
+            <br>
+            <span>{{ .Params.sections.info.address }}</span>
+          </div>
+          <div class="col-2">
+            <span class="text-muted">ZIP CODE</span>
+            <br>
+            <span>{{ .Params.sections.info.zip }}</span>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <h3>Features</h3>
+        <div class="row">
+          {{ range $feature := .Params.sections.features }}
+          <div class="col-3 mb-4">
+            <i class="fa {{ $feature.icon }} fa-4x" aria-hidden="true"></i>
+            <br>
+            <span>{{ $feature.data }}</span>
+            <br>
+            <span class="text-muted">{{ $feature.label }}</span>
+          </div>
+          {{ end }}
+        </div>
+      </li>
+      {{ if .Params.Nearby }}
+      <li class="list-group-item">
+        <h3>Nearby</h3>
+      </li>
+      {{ end }}
+      {{ if .Params.Notes }}
+      <li class="list-group-item">
+        <h3>Notes</h3>
+      </li>
+      {{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="row">
+      <div class="card">
+        SELLER
+      </div>
+    </div>
+    <div class="row">
+      <div class="card">
+        GET NOTIFIED
+      </div>
+    </div>
+  </div>
 </div>
-{{ if .Params.mediumform }}
-<div class="row text-center">
-  {{partial "md-form" . }}          
-</div>
-{{ end }}
-{{ if .Params.detailform }}
-<div class="row text-center">
-  {{partial "detail-form" . }}          
-</div>
-{{ end }}
-{{ if .Params.contactform }}
-<div class="row text-center">
-  {{partial "contact-form" . }}          
-</div>
-{{ end }}
 {{ end }}

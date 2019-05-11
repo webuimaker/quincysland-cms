@@ -1,0 +1,27 @@
+// display flex was causing errors
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+    display: block;
+}
+
+.carousel{
+    .carousel-inner{
+        box-shadow: $box-shadow-raised;
+
+        .carousel-item {
+            height: 60vh;
+
+            .img {
+                width: 100vw; 
+                height: auto;
+                object-fit: scale-down;
+            }
+
+        }
+    }
+
+    .now-ui-icons{
+        font-size: 2em;
+    }
+}
