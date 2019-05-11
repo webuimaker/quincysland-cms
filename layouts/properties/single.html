@@ -104,7 +104,7 @@
         <div class="row">
           {{ range $feature := .Params.sections.features }}
           <div class="col-3 mb-4">
-            <i class="fa {{ $feature.icon }} fa-4x" aria-hidden="true"></i>
+            <i class="fa {{ $feature.icon }} fa-4x red" aria-hidden="true"></i>
             <br>
             <span>{{ $feature.data }}</span>
             <br>
@@ -113,11 +113,15 @@
           {{ end }}
         </div>
       </li>
-      {{ if .Params.Nearby }}
       <li class="list-group-item">
-        <h3>Nearby</h3>
+        <h3 class="mb-1">Nearby</h3>
+        {{ range $feature := .Params.sections.nearby }}              
+        <div class="row ml-auto mr-auto">
+          <h4>{{ $feature.title }}</h4>
+          <p>{{$feature.Description}}</p>
+        </div>
+        {{ end   }}
       </li>
-      {{ end }}
       {{ if .Params.Notes }}
       <li class="list-group-item">
         <h3>Notes</h3>

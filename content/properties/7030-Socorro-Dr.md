@@ -27,47 +27,58 @@ subtitle: "This property would make a great home base for exploring the famous R
 description: "Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!"
 thumbnail: '/img/properties/7030-socorro-dr/33313075-14.jpg'
 sections:
-  info:
-    state: "Arizona"
-    county: "Mohave"
-    acreage: "0.23"
-    nearest_city: "Kingman"
-    apn: 333-13-075
-    address: "7030 Socorro Dr"
-    zip: 86401 
-  features:
-    -
-      icon: fa-th-large
-      label: "ACRES"
-      data: "0.23"
-    -
-      icon: fa-th-large
-      label: "SUBDIVISION"
-      data: "Valle Vista"
-    -
-      icon: fa-th-large
-      label: "ZONING"
-      data: "Residential"
-    -
-      icon: fa-road
-      label: "ACCESS"
-      data: "Dirt / Gravel"
-    -
-      icon: fa-plug
-      label: "POWER"
-      data: "none"
-    -
-      icon: fa-tint
-      label: "WATER"
-      data: "None"
-    -
-      icon: fa-tint
-      label: "SEPTIC"
-      data: "None"
-    -
-      icon: fa-map-marker 
-      label: "COORDINATES"
-      data: "35.418659, -113.869277 NW"
+    info:
+        state: "Arizona"
+        county: "Mohave"
+        acreage: "0.23"
+        nearest_city: "Kingman"
+        apn: 333-13-075
+        address: "7030 Socorro Dr"
+        zip: 86401 
+    features:
+        -
+            icon: fa-th-large
+            label: "ACRES"
+            data: "0.23"
+        -
+            icon: fa-home
+            label: "SUBDIVISION"
+            data: "Valle Vista"
+        -
+            icon: fa-book
+            label: "ZONING"
+            data: "Residential"
+        -
+            icon: fa-road
+            label: "ACCESS"
+            data: "Dirt / Gravel"
+        -
+            icon: fa-plug
+            label: "POWER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "WATER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "SEPTIC"
+            data: "Nearby"
+        -
+            icon: fa-map-marker 
+            label: "COORDINATES"
+            data: "35.418659, -113.869277 NW"
+    nearby:
+        -
+            title: "Mohave County"
+            description: |-
+                Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
+        
+From this piece of land, it won't take very long to get to many great destinations:
+- 1.5 hours to The Grand Canyon
+- 2 hours to Las Vegas!
+- 3 hour drive to Phoenix 
+
 
 resources: 
 - src: "/img/properties/7030-socorro-dr/33313075-1.jpg"
@@ -115,12 +126,6 @@ resources:
 ---
 
 
-Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
-
-From this piece of land, it won't take very long to get to many great destinations:
-- 1.5 hours to The Grand Canyon
-- 2 hours to Las Vegas!
-- 3 hour drive to Phoenix 
 
 ### Property Details
 - STRUCTURE LIMITATIONS: 60% of Lot size
