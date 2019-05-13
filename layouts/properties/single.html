@@ -131,16 +131,36 @@
     </div>
   </div>
   <div class="col-md-3">
+    <!--
     <div class="row">
       <div class="card">
         SELLER
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <div class="card">
         GET NOTIFIED
       </div>
     </div>
+    <div class="row">
+      <div class="card">
+        Area Contact Info
+        <div class="card-body">
+          <ul>
+          {{ range $info := .Params.sections.county }}              
+          <li>
+            <p>
+              <a href="{{ $info.link}}">{{ $info.title }}</a>
+              {{ if $info.phone }}
+              - <a href="tel://{{ $info.phone}}">{{ $info.phone }}</a>
+              {{ end }}
+            </p>
+          </li>
+          {{ end }}        
+          </ul>
+        </div>
+      </div>
+    </div>    
   </div>
 </div>
 {{ end }}
