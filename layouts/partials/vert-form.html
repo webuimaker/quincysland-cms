@@ -1,22 +1,26 @@
-<!-- Small Form -->
+<!-- Vertical Form -->
 <div class="card">
-    <form class="form" method="POST" action="/step2/" name="buyers" data-netlify="true" netlify-honeypot="breathing-field">
+    <form class="form" method="POST" action="/properties/" name="buyers" data-netlify="true"
+        netlify-honeypot="breathing-field">
         <p class="hidden" style="height: 0; width: 0; position: absolute; visibility: hidden">
-            <label>Sell For Cash:<input name="breathing-field" /></label>
+            <label>Buy Quick on Terms:<input name="breathing-field" /></label>
         </p>
-        <h4 class="title title-up mb-1">Get Updated</h4>
+        <h4 class="title mb-1">Get Updated</h4>
         <div class="card-body">
             <div class="input-group form-group-no-border">
+                <label class="sr-only" for="formInputName">Name</label>
                 <span class="input-group-addon">
                     <i class="now-ui-icons users_circle-08"></i>
                 </span>
-                <input type="text" class="form-control" name="name" placeholder="Name..." required>
+                <input type="text" class="form-control" id="formInputName" name="name" placeholder="Name..." required>
             </div>
             <div class="input-group form-group-no-border">
+                <label class="sr-only" for="formInputEmail">Email</label>
                 <span class="input-group-addon">
                     <i class="now-ui-icons ui-1_email-85"></i>
                 </span>
-                <input type="email" class="form-control" name="email" placeholder="Email..." required>
+                <input type="email" class="form-control" id="formInputEmail" name="email" placeholder="Email..."
+                    required>
             </div>
             <div class="footer text-center mt-0">
                 <input type="submit" class="btn btn-warning btn-round btn-lg btn-block" value="See Properties">
@@ -24,4 +28,4 @@
         </div>
     </form>
 </div>
-<!-- End Small Form-->
+<!-- End Vertical Form-->
