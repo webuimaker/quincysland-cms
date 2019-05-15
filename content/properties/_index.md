@@ -7,4 +7,3 @@ navstyle: ""
 colorOnScroll: 1
 ---
 #### _Search for your perfect property below_
-
