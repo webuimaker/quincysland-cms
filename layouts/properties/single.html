@@ -36,7 +36,9 @@
                 <span>{{ $payment.downPayment }}</span>
               </div>
               <div class="col-sm-4">
+                {{ if eq .Params.status "Available" }} 
                 <a class="btn btn-large btn-info" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
+                {{ end }}
               </div>
             </div>
             <hr />
