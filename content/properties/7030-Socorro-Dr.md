@@ -9,7 +9,7 @@ class: "property-page"
 navstyle: ""
 colorOnScroll: 1
 # property data
-status: "Available"
+status: Available
 payments:
     cash:
         title: Cash Price

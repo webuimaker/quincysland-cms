@@ -36,7 +36,7 @@
                 <span>{{ $payment.downPayment }}</span>
               </div>
               <div class="col-sm-4">
-                {{ if eq .Params.status "Available" }} 
+                {{ if eq $.Params.status "Available" }} 
                 <a class="btn btn-large btn-info" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
                 {{ end }}
               </div>
@@ -140,9 +140,7 @@
       </div>
     </div> -->
     <div class="row">
-      <div class="card">
-        GET NOTIFIED
-      </div>
+    {{ partial "sm-form" .}}
     </div>
     <div class="row">
       <div class="card">
