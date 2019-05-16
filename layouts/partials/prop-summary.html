@@ -15,7 +15,7 @@
             <h6 class="cardsub-title text-muted">{{ .Params.HeroHeading }}</h6>
             {{ if .Params.payments.aterms }}
             <div class="finance-price">
-                <span>Finance Terms: {{ .Params.payments.aterms.price }} {{ .Params.payments.aterms.priceNote }}</span>
+                <span>{{ .Params.payments.aterms.price }} {{ .Params.payments.aterms.priceNote }}</span>
             </div>
             {{ end }}
             {{/* if .Params.payments.bcash }}
