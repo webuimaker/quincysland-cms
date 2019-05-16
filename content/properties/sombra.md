@@ -1,13 +1,124 @@
 ---
-title: 'SOLD - 1.5 Flat Acres in Deming NM'
+title: '1.5 Flat Acres in Deming NM'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 3
-heroHeading: '1.5 Acres in Deming NM - SOLD'
-heroSubHeading: 'Deming Ranchettes Subdivion in Luna County'
-heroBackground: 'img/properties/sombra/sombra-3.jpg'
+# UI stuff
+headerstyle: "page-header-xtrasmall"
+class: "property-page"
+navstyle: ""
+colorOnScroll: 1
+# property data
+status: "Sold"
+payments:
+    cash:
+        title: Cash Price
+        price: $2,700
+        priceDiscount: $3,605
+        downPayment: $250 Down Payment
+    terms:
+        title: Finance Terms
+        price: $142/mo
+        priceNote: For 24 Months
+        downPayment: $447 Down Payment
+subtitle: '1.5 Acres in Deming NM'
+description: "<p>Take in the amazing mountain views from your own slice of heaven in the Deming Ranchettes subdivision of southwestern New Mexico! This property is just southeast of Deming, and only a 15 minutes drive to the middle of town!</p>
+<p>Easy access to town using maintained dirt roads in the subdivision and paved roads closer to town. Jumping on Interstate 10 is easy too, at only 15 minutes from the property.</p>"
 thumbnail: 'img/properties/sombra/sombra-3.jpg'
-images: ['img/properties/sombra/sombra-1.jpg', 'img/properties/sombra/sombra-2.jpg', 'img/properties/sombra/sombra-3.jpg', 'img/properties/sombra/sombra-4.jpg', 'img/properties/sombra/sombra-5.jpg', 'img/properties/sombra/sombra-6.jpg', 'img/properties/sombra/sombra-7.jpg']
+sections:
+    info:
+        state: New Mexico
+        county: Luna
+        acreage: 1.5
+        nearest_city: "Deming"
+        apn: 3047140069469, 3047140057469, 3047140046469 
+        address: "Sombra Road"
+        zip: 88029 
+        TAXES: $40/year
+    features:
+        -
+            icon: fa-th-large
+            label: "ACRES"
+            data: "1.5"
+        -
+            icon: fa-home
+            label: "SUBDIVISION"
+            data: "Deming Ranchettes"
+        -
+            icon: fa-book
+            label: "ZONING"
+            data: "Residential"
+        -
+            icon: fa-road
+            label: "ACCESS"
+            data: "Dirt / Gravel"
+        -
+            icon: fa-plug
+            label: "POWER"
+            data: "None"
+        -
+            icon: fa-tint
+            label: "WATER"
+            data: "None"
+        -
+            icon: fa-tint
+            label: "SEPTIC"
+            data: "REQUIRED"
+        -
+            icon: fa-map-marker 
+            label: "COORDINATES"
+            data: "32.2271514, -107.6850318"
+    nearby:
+        -
+            title: "Luna County"
+            description: |-
+                Travel 15 minutes east and you will find hiking trails and beautiful wildflower displays at Rock Hound State Park, with stunning views of the Little Florida Mountains. Another great destination for the nature enthusiast is the Gila National Forest, which is just shy of 90 minutes away. If cities are more your thing, consider a 90 minute drive to El Paso, TX or a 3 hour drive to Tucson, AZ.
+    county:
+        -
+          title: County Website
+          link:	 http://www.lunacountynm.us
+        - 
+          title: Assessor
+          phone: 575-546-0404
+          link: http://www.lunacountynm.us/government/assessor/index.php
+        - 
+          tile: Treasurer
+          phone: 575-546-0401
+          link: http://www.lunacountynm.us/government/treasurer/index.php
+        -
+          title: Recorder/Clerk
+          phone: 575-546-0491
+          link: http://www.lunacountynm.us/government/clerk/index.php
+        -
+          title: Planning / Zoning
+          phone:  575-546-0494
+          link: http://www.lunacountynm.us/departments/planning_and_community_development/index.php
+        - 
+          title: GIS Website
+          link:	https://parcels.lunacountynm.opendata.arcgis.com/
+
+resources: 
+- src: "/img/properties/sombra/sombra-1.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-2.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-3.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-4.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-5.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-6.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
+- src: "/img/properties/sombra/sombra-7.jpg"
+  name: 'Sombra Rd - Deming Ranchettes'
+  title: 
 ---
 This property is no longer available, but if it looks like just the place for you, please get in touch and we will see if we can help you get down to New Mexico!
 
@@ -48,10 +159,3 @@ Approximate Four Corners of Property:
 - ELECTRIC: There is power at a nearby property appx a third of a mile away; or use solar. 
 - WATER: Well would have to be installed 
 - SEWER: Septic would have to be installed
-
-### Pricing Details
-- DOWN PAYMENT: $ 197
-- MONTHLY PAYMENT: $ 142
-- TERM: 24 Months
-- DOCUMENT PREPARATION FEE: $ 250
-- CASH Discount: $2700

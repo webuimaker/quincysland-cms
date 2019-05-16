@@ -3,6 +3,13 @@ title: '0.23 Acre Investment Property in Golf Community'
 date: 2019-01-09T12:33:46+10:00
 draft: false
 weight: 2
+# UI stuff
+headerstyle: "page-header-xtrasmall"
+class: "property-page"
+navstyle: ""
+colorOnScroll: 1
+# property data
+status: Available
 payments:
     cash:
         title: Cash Price
@@ -16,55 +23,144 @@ payments:
         priceNote: For 36 Months
         downPayment: $449 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
-heroHeading: 'Amazing views and a plenty of activities'
-heroSubHeading: 'Be the first on your street! This .23 acre lot is located in Valle Vista Golf development. Don’t let this deal pass you by!'
-heroBackground: 'img/properties/7030-socorro-dr/33313075-14.jpg'
-thumbnail: 'img/properties/7030-socorro-dr/33313075-14.jpg'
-images: [
-    'img/properties/7030-socorro-dr/33313075-1.jpg',
-    'img/properties/7030-socorro-dr/33313075-2.jpg',
-    'img/properties/7030-socorro-dr/33313075-3.jpg',
-    'img/properties/7030-socorro-dr/33313075-4.jpg',
-    'img/properties/7030-socorro-dr/33313075-6.jpg',
-    'img/properties/7030-socorro-dr/33313075-7.jpg',
-    'img/properties/7030-socorro-dr/33313075-8.jpg',
-    'img/properties/7030-socorro-dr/33313075-10.jpg',
-    'img/properties/7030-socorro-dr/33313075-12.jpg',
-    'img/properties/7030-socorro-dr/33313075-14.jpg',
-    'img/properties/7030-socorro-dr/33313075-15.jpg',
-    'img/properties/7030-socorro-dr/33313075-16.jpg',
-    'img/properties/7030-socorro-dr/33313075-17.jpg',
-    'img/properties/7030-socorro-dr/33313075-18.jpg',
-    'img/properties/7030-socorro-dr/33313075-19.jpg'
-]
+subtitle: "This property would make a great home base for exploring the famous RT-66 that starts nearby!"
+description: "<p>Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!</p>
+<p>The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages.</p>"
+thumbnail: '/img/properties/7030-socorro-dr/33313075-14.jpg'
+sections:
+    info: 
+        state: Arizona
+        county: Mohave
+        acreage: 0.23
+        nearest_city: "Kingman"
+        apn: 333-13-075
+        address: "7030 Socorro Dr"
+        zip: 86401 
+        TAXES: $27.14/year
+        HOA: $124/year
+    features:
+        -
+            icon: fa-th-large
+            label: "ACRES"
+            data: "0.23"
+        -
+            icon: fa-home
+            label: "SUBDIVISION"
+            data: "Valle Vista"
+        -
+            icon: fa-book
+            label: "ZONING"
+            data: "Residential"
+        -
+            icon: fa-road
+            label: "ACCESS"
+            data: "Dirt / Gravel"
+        -
+            icon: fa-plug
+            label: "POWER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "WATER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "SEPTIC"
+            data: "REQUIRED"
+        -
+            icon: fa-map-marker 
+            label: "COORDINATES"
+            data: "35.418659, -113.869277 NW"
+    nearby:
+        -
+            title: "Mohave County"
+            description: |-
+                Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
+# From this piece of land, it won't take very long to get to many great destinations:
+# - 1.5 hours to The Grand Canyon
+# - 2 hours to Las Vegas!
+# - 3 hour drive to Phoenix 
+    county:
+        - 
+          title: Valle Vista Golf Course 
+          link:  http://vallevistart66az.com/
+          phone: 978-723-3701
+        - 
+          title: Valle Vista Property Owners Association
+          phone: 928-757-3213
+          link:  http://www.myvallevista.org
+        - 
+          title: County Website
+          link:	 https://www.mohavecounty.us/default.aspx
+        - 
+          title: Assessor
+          phone: 928-753-0703
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=111
+        - 
+          tile: Treasurer
+          phone: 928-753-0737
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=132
+        -
+          title: Recorder/Clerk
+          phone: 928-753-0701
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=129
+        -
+          title: Planning / Zoning
+          phone: 928-757-0903 
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=360 
+        - 
+          title: GIS Website
+          link:	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
+
+resources: 
+- src: "/img/properties/7030-socorro-dr/33313075-1.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-2.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-3.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title:
+- src: "/img/properties/7030-socorro-dr/33313075-4.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title:
+- src: "/img/properties/7030-socorro-dr/33313075-7.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-8.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-10.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-12.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-14.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-15.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-16.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-17.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-18.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
+- src: "/img/properties/7030-socorro-dr/33313075-19.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
 ---
-Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!
 
-This property also would make a great home base for exploring the famous RT-66 that starts nearby!
 
-Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
-
-From this piece of land, it won't take very long to get to many great destinations:
-- 1.5 hours to The Grand Canyon
-- 2 hours to Las Vegas!
-- 3 hour drive to Phoenix 
-
-Some of the included pictures weren't taken at the parcel, but are representative of the area.
 
 ### Property Details
-
-- ACREAGE: 0.23
-- APN: 333-13-075
-- ADDRESS: 7030 Soccorro Dr
-- CITY: Kingman
-- COUNTY: Mohave
-- STATE: Arizona
-- ZIP CODE: 86401
-- SUBDIVISION: Valle Vista
-- ZONING: R-O (Single-Family Residential / Manuafactured Homes Prohibited)
 - STRUCTURE LIMITATIONS: 60% of Lot size
-- ANIMAL PRIVILEGES: No Livestock
-- LOT #: Lot 2687
 - ELEVATION: 3,103 feet
 - TERRAIN: Plain
 - ANNUAL TAXES (Approx): $27.14
@@ -81,24 +177,5 @@ Approximate Four Corners of Property:
 * 35.418303, -113.869155 SE
 * 35.418398, -113.869414 SW
 
-### Utility Info
-- IMPROVEMENTS: None
-- ACCESS: Dirt / Gravel Roads
-- PHONE: Mobile / Satellite / Alternative
-- ELECTRIC: Electric lines near by. Call Mohave Electric Co-Op for more information: (928) 763-1100
-- WATER: Water already exists near by. Call Mohave County water Authority for more details. (928) 453-6660
-- SEWER: Septic is required for single family homes and would have to be installed.
 
-### Community Info
-- Valle Vista Golf Course:  (978) 723-3701      http://vallevistart66az.com/
-- Valle Vista Property Owners Association:   (928) 757-3213 x 23      http://www.myvallevista.org
-
-### County Contact Info
-
-- County Website	https://www.mohavecounty.us/default.aspx
-- Assessor: 	(928) 753-0703      https://www.mohavecounty.us/ContentPage.aspx?id=111
-- Treasurer: (928) 753-0737      https://www.mohavecounty.us/ContentPage.aspx?id=132
-- Recorder/Clerk: 	(928) 753-0701      https://www.mohavecounty.us/ContentPage.aspx?id=129
-- Planning / Zoning:	(928) 757-0903 https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=360 
-- GIS Website	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
 

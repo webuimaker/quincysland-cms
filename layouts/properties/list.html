@@ -1,27 +1,36 @@
-{{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-work-list{{ end }}
-{{ define "header_classes" }}{{ end }}
+{{ define "body" }}
 
-{{ define "main" }}
-
-{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
-{{ if .Content }}
-<div class="container pt-6 pt-md-10">
-  <div class="row">
-    <div class="col-12">
-      <div class="page-intro">
-      {{ .Content }}
-    </div>
+<div class="container mt-0">
+  <div class="row mt-0 pt-0">
+    <div class="col-sm-12 text-center">
+    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    <!-- List pages can get Content and yaml metadata from an _index.md -->
+    {{ with .Content }}<div class="article-style" itemprop="articleBody">{{ . }}</div>{{ end }}
     </div>
   </div>
 </div>
-{{ end }}
 
-<div class="container pb-6 pt-6 pb-md-10 pt-md-10">
+<div class="container justify-content-center">
   <div class="row">
-    {{ range .Pages.ByWeight }}
-    <div class="col-12 col-md-6 mb-2 ">{{ .Render "summary" }}</div>
+    {{ range .Paginator.Pages }}
+    {{ partial "prop-summary" . }}
     {{ end }}
   </div>
 </div>
+
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav>
+  <ul class="pager">
+    {{ if .Paginator.HasPrev }}
+    <li><a href="{{ .Paginator.Prev.URL | relURL }}">&laquo; Previous</a></li>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <li><a href="{{ .Paginator.Next.URL | relURL }}">Next &raquo;</a></li>
+    {{ end }}
+  </ul>
+</nav>
 {{ end }}
+
+<br />
+{{end}}

@@ -1,18 +1,56 @@
-<div class="footer">
+<footer class="footer" data-background-color="black">
   <div class="container">
-    <!-- Default form subscription -->
-    <form class="text-center border border-light p-1" name="buyerslist" method="POST" data-netlify="true" netlify-honeypot='beezknees'>
-        <p class="hidden">
-          <label>Fill this out if you're a drone: <input name="beezknees" /></label>
-        </p>
-        <p class="footer-title p-2">Join our VIP Buyer's List to be the first to hear about Quincy's new finds</p>
-        <!-- Name -->
-        <input type="text" name="name" class="form-control mb-4" placeholder="Your Name">
-        <!-- Email -->
-        <input type="email" name="email" class="form-control mb-4" placeholder="Your E-mail">
-        <!-- Sign in button -->
-        <button class="btn btn-info btn-block" type="submit">Subscribe</button>
-    </form>
-    <!-- Default form subscription -->
+    <div class="row">
+      <!-- About Us-->
+      <div class="col-sm-4">
+        <div class="text-center">
+          <h4><a href="/about/">About Us</a></h4>
+          <p>We sell vacant land all over the USA. We would love to talk
+to you about helping you find your own little slice of heaven. Thank your
+for visiting our websiste and we hope to talk to you soon.</p>
+        </div>
+      </div>
+      <!--- Testamonial -->
+      <div class="col-sm-4">
+        <div class="text-center">
+        </div>
+      </div>
+      <!--- Contact -->
+      <div class="col-sm-4">
+        <div class="text-center">
+          <h4><a href="/contact">Contact Us</a></h4>
+          <p>{{ .Site.Params.address }}
+          <br>{{ .Site.Params.citystate }}
+          <br><a href="tel://{{ .Site.Params.phone }}"><i class="fa fa-phone"></i> Phone: {{ .Site.Params.phone }}</a>
+          <br><a href="mailto:{{ .Site.Params.email }}"><i class="fa fa-envelope"></i> E-Mail: {{ .Site.Params.email }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ul class="nav justify-content-center">
+        <div class="row">
+          <div class="text-center mb-1">
+          {{ range .Site.Menus.footer }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | safeURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+              </a>
+            </li>
+          {{ end }}
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="text-center mt-1 mb-0 pb-0">
+         Powered by <a href="https://themes.gohugo.io/hugo-now-ui/">Hugo Now UI</a>
+         <br>
+          © 2019 Quincy's Land LLC
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</footer>

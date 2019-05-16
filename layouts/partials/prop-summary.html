@@ -1,0 +1,43 @@
+<div class="col-md-4 ml-auto mr-auto d-flex align-items-stretch">
+    <div class="card">
+        {{if .Params.thumbnail }}
+        <div>
+            <a href="{{ .RelPermalink }}">
+                <img class="card-img-top" src="{{ .Params.thumbnail  | absURL }}" />
+                {{ if ne .Params.status "Available" }}
+                <span class="property-status">{{ .Params.status }}</span>
+                {{ end }}
+            </a>
+        </div>
+        {{ end }}
+        <div class="card-body text-center">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <h6 class="cardsub-title text-muted">{{ .Params.HeroHeading }}</h6>
+            {{ if .Params.payments.cash }}
+            <div class="cash-price">
+                <span class="success-color">{{ .Params.payments.cash.price }}</span>
+                <span><del>{{ .Params.payments.cash.priceDiscount }}</del></span>
+            </div>
+            {{ end }}
+            {{ if .Params.payments.terms }}
+            <div class="finance-price">
+                <span>Finance Terms: {{ .Params.payments.terms.price }} {{ .Params.payments.terms.priceNote }}</span>
+            </div>
+            {{ end }}
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <span>{{ .Params.sections.info.acreage }}</span>
+                    <span>ACREAGE</span>
+                </div>
+                <div class="col-4">
+                    <span>{{ .Params.sections.info.county }}</span>
+                    <span>COUNTY</span>
+                </div>
+                <div class="col-4">
+                    <a href="{{ .RelPermalink }}" class="btn btn-success">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

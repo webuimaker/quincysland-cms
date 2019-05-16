@@ -1,90 +1,140 @@
-{{ define "header_css" }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+{{ define "title" }}
 {{ end }}
-{{ define "body_classes" }}page-work-single{{ end }}
-{{ define "header_classes" }}{{ end }}
 
-{{ define "main" }}
-{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
-  {{ if .Params.payments }} 
-  <div class="container mt-3 mb-0">
-    <h2>Payment Options</h2>
-    {{ range $payment := .Params.payments }}
-      <div class="row">
-        <div class="col-sm-12">
-          <h4>{{ $payment.title }}</h4>
-        </div>
-        <div class="row">
-          <div class="col-sm-2 offset-sm-1">
-            <span>{{ $payment.price }}</span>
-          </div>
-          <div class="col-sm-2">
-            {{ if $payment.priceNote}}
-            <span>{{ $payment.priceNote }}</span>
-            {{end}}
-            {{ if $payment.priceDiscount}}
-            <span><del>{{ $payment.priceDiscount }}</del></span>
-            {{end}}
-          </div>
-          <div class="col-sm-2">
-            <span>{{ $payment.downPayment }}</span>
-          </div>
-          <div class="col-sm-1">
-            <a class="button-blue" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      <div class="row">
-        <div class="col-sm-6">
-          <h5>Payment Note(s)</h5>
-          <p class="mb-0">
-              If you are interested in reserving this parcel,
-click “Reserve Now” button for any of the payment options.
-You will be redirected to our payment page to make the initial
-reservation payment. Downpayment amount includes a $250 document
-preparation fee. 
-          </p>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-    <div class="container pt-4 pt-md-10 pb-4 pb-md-10">
-    <div class="col-12 col-md-8">
-      <div class="work work-single">
-        <div class="content">{{.Content}}</div>
-      </div>
-    </div>
-    {{ if .Params.images }}
-    <div class="container gallery-container">
-      <div class="gallery">
-          <div class="row">
-              {{ range .Params.images }}
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="{{ . | relURL }}">
-                      <img src="{{ . | relURL }}" alt="Vacant Land">
-                  </a>
+{{ define "body" }}
+
+<div class="row mt-0 pt-0">
+  {{ partial "carousel" . }}
+</div>
+
+<div class="row pt-5">
+  <div class="col-md-9 text-left">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">{{ .Title }}</h1>
+        <h5 class="cart-title text-muted">{{ .Params.subtitle }}</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h3>Payment Options</h3>
+            {{ range $payment := .Params.payments }}
+            <div class="row mt-0 mb-0">
+              <div class="col">
+                <h4>{{ $payment.title }}</h4>
               </div>
-              {{ end }}
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <span>{{ $payment.price }}</span>
+                {{ if $payment.priceNote}}
+                <span>{{ $payment.priceNote }}</span>
+                {{end}}
+                {{ if $payment.priceDiscount}}
+                <span><del>{{ $payment.priceDiscount }}</del></span>
+                {{end}}
+              </div>
+              <div class="col-sm-4">
+                <span>{{ $payment.downPayment }}</span>
+              </div>
+              <div class="col-sm-4">
+                {{ if eq $.Params.status "Available" }} 
+                <a class="btn btn-large btn-info" href="{{ $payment.downPayLink }}" role="button">Reserve Now</a>
+                {{ end }}
+              </div>
+            </div>
+            <hr />
+            {{ end }}
+            <div class="row">
+              <div class="col-sm-12">
+                <h6 class="text-muted">Payment Note(s)</h6>
+                <p class="mb-0">
+                  If you are interested in reserving this parcel,
+                  click “Reserve Now” button for any of the payment options.
+                  You will be redirected to our payment page to make the initial
+                  reservation payment. Downpayment amount includes a ${{ $.Site.Params.default_doc_fee }} document
+                  preparation fee.
+                </p>
+              </div>
+            </div>
+      </div>
+      </li>
+      <li class="list-group-item">
+        <h3>Description</h3>
+        <div>
+          {{with .Params.description }} {{ . | safeHTML }} {{ end }}       
+        </div>
+      </li>
+      <li class="list-group-item">
+        <h3>Property Information</h3>
+        <div class="row">
+          {{ range $key, $value := .Params.sections.info }}
+          <div class="col-2">
+            <span class="text-muted text-uppercase">{{ $key }}</span>
+            <br>
+            <span>{{ $value }}</span>
           </div>
-      </div>     
+          {{ end }}
+        </div>
+      </li>
+      <li class="list-group-item">
+        <h3>Features</h3>
+        <div class="row">
+          {{ range $feature := .Params.sections.features }}
+          <div class="col-3 mb-4">
+            <i class="fa {{ $feature.icon }} fa-4x red" aria-hidden="true"></i>
+            <br>
+            <span>{{ $feature.data }}</span>
+            <br>
+            <span class="text-muted">{{ $feature.label }}</span>
+          </div>
+          {{ end }}
+        </div>
+      </li>
+      <li class="list-group-item">
+        <h3 class="mb-1">Nearby</h3>
+        {{ range $feature := .Params.sections.nearby }}              
+        <div class="row ml-auto mr-auto">
+          <h4>{{ $feature.title }}</h4>
+          <p>{{$feature.Description}}</p>
+        </div>
+        {{ end   }}
+      </li>
+      {{ if .Params.Notes }}
+      <li class="list-group-item">
+        <h3>Notes</h3>
+      </li>
+      {{ end }}
+      </ul>
     </div>
-    {{ end }}
+  </div>
+  <div class="col-md-3">
+    <!--
+    <div class="row">
+      <div class="card">
+        SELLER
+      </div>
+    </div> -->
+    <div class="row">
+    {{ partial "vert-form" .}}
+    </div>
+    <div class="row">
+      <div class="card">
+        Area Contact Info
+        <div class="card-body">
+          <ul>
+          {{ range $info := .Params.sections.county }}              
+          <li>
+            <p>
+              <a href="{{ $info.link}}">{{ $info.title }}</a>
+              {{ if $info.phone }}
+              - <a href="tel://{{ $info.phone}}">{{ $info.phone }}</a>
+              {{ end }}
+            </p>
+          </li>
+          {{ end }}        
+          </ul>
+        </div>
+      </div>
+    </div>    
   </div>
 </div>
-{{ end }}
-
-{{ define "footer_js" }}
-{{ $library := resources.Get "js/libs/library.js" }}
-{{ $services := resources.Get "js/pages/services.js" }}
-{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
-{{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-  <script>
-      baguetteBox.run('.gallery');
-  </script> 
 {{ end }}
