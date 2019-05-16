@@ -13,17 +13,17 @@
         <div class="card-body text-center">
             <h5 class="card-title">{{ .Title }}</h5>
             <h6 class="cardsub-title text-muted">{{ .Params.HeroHeading }}</h6>
-            {{ if .Params.payments.cash }}
-            <div class="cash-price">
-                <span class="success-color">{{ .Params.payments.cash.price }}</span>
-                <span><del>{{ .Params.payments.cash.priceDiscount }}</del></span>
-            </div>
-            {{ end }}
-            {{ if .Params.payments.terms }}
+            {{ if .Params.payments.aterms }}
             <div class="finance-price">
-                <span>Finance Terms: {{ .Params.payments.terms.price }} {{ .Params.payments.terms.priceNote }}</span>
+                <span>Finance Terms: {{ .Params.payments.aterms.price }} {{ .Params.payments.aterms.priceNote }}</span>
             </div>
             {{ end }}
+            {{/* if .Params.payments.bcash }}
+            <div class="cash-price">
+                <span class="success-color">{{ .Params.payments.bcash.price }}</span>
+                <span><del>{{ .Params.payments.bcash.priceDiscount }}</del></span>
+            </div>
+            {{ end */}}            
             <hr>
             <div class="row">
                 <div class="col-4">

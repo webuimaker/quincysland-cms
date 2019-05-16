@@ -11,13 +11,13 @@ colorOnScroll: 1
 # property data
 status: "Under Contract"
 payments:
-    0-terms:
+    aterms:
         title: Finance Terms
         price: $149/mo
         priceNote: For 48 Months
         downPayment: $449 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
-    1-cash:
+    bcash:
         title: Cash Discount
         price: $4,499
         priceDiscount: $7,351

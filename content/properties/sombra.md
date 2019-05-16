@@ -11,12 +11,12 @@ colorOnScroll: 1
 # property data
 status: "Sold"
 payments:
-    0-terms:
+    aterms:
         title: Finance Terms
         price: $142/mo
         priceNote: For 24 Months
         downPayment: $447 Down Payment
-    1-cash:
+    bcash:
         title: Cash Discount
         price: $2,700
         priceDiscount: $3,605
