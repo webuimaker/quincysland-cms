@@ -28,14 +28,16 @@ description: "<p>Mohave County is seeing rising home values as people seek to es
 <p>The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages.</p>"
 thumbnail: '/img/properties/7030-socorro-dr/33313075-14.jpg'
 sections:
-    info:
-        state: "Arizona"
-        county: "Mohave"
-        acreage: "0.23"
+    info: 
+        state: Arizona
+        county: Mohave
+        acreage: 0.23
         nearest_city: "Kingman"
         apn: 333-13-075
         address: "7030 Socorro Dr"
         zip: 86401 
+        TAXES: $27.14/year
+        HOA: $124/year
     features:
         -
             icon: fa-th-large

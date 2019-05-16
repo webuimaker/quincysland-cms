@@ -66,41 +66,13 @@
       <li class="list-group-item">
         <h3>Property Information</h3>
         <div class="row">
+          {{ range $key, $value := .Params.sections.info }}
           <div class="col-2">
-            <span class="text-muted">SIZE</span>
+            <span class="text-muted text-uppercase">{{ $key }}</span>
             <br>
-            <span>{{ .Params.sections.info.acreage }} acres</span>
+            <span>{{ $value }}</span>
           </div>
-          <div class="col-2">
-            <span class="text-muted">COUNTY</span>
-            <br>
-            <span>{{ .Params.sections.info.county }}</span>
-          </div>
-          <div class="col-2">
-            <span class="text-muted">STATE</span>
-            <br>
-            <span>{{ .Params.sections.info.state }}</span>
-          </div>
-          <div class="col-2">
-            <span class="text-muted">NEAREST CITY</span>
-            <br>
-            <span>{{ .Params.sections.info.nearest_city }}</span>
-          </div>
-          <div class="col-2">
-            <span class="text-muted">PARCEL #</span>
-            <br>
-            <span>{{ .Params.sections.info.apn }}</span>
-          </div>
-          <div class="col-2">
-            <span class="text-muted">ADDRESS</span>
-            <br>
-            <span>{{ .Params.sections.info.address }}</span>
-          </div>
-          <div class="col-2">
-            <span class="text-muted">ZIP CODE</span>
-            <br>
-            <span>{{ .Params.sections.info.zip }}</span>
-          </div>
+          {{ end }}
         </div>
       </li>
       <li class="list-group-item">

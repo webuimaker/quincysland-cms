@@ -29,13 +29,15 @@ description: "<p>This great corner lot is the perfect place to build! Water and 
 thumbnail: 'img/properties/10183-n-blackboot-dr/blackboot-1.jpg'
 sections:
     info:
-        state: "Arizona"
-        county: "Mohave"
+        state: Arizona
+        county: Mohave
         acreage: "0.23"
         nearest_city: "Kingman"
         apn: 333-13-141
         address: "10183 N Blackboot Dr"
         zip: 86401 
+        TAXES: $56.45/year
+        HOA: $124/year    
     features:
         -
             icon: fa-th-large

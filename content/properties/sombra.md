@@ -27,13 +27,14 @@ description: "<p>Take in the amazing mountain views from your own slice of heave
 thumbnail: 'img/properties/sombra/sombra-3.jpg'
 sections:
     info:
-        state: "New Mexico"
-        county: "Luna"
-        acreage: "1.5"
+        state: New Mexico
+        county: Luna
+        acreage: 1.5
         nearest_city: "Deming"
         apn: 3047140069469, 3047140057469, 3047140046469 
-        address: "Sombra Rd"
-        zip: 88029
+        address: "Sombra Road"
+        zip: 88029 
+        TAXES: $40/year
     features:
         -
             icon: fa-th-large
