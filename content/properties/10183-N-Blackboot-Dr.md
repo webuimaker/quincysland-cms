@@ -11,18 +11,18 @@ colorOnScroll: 1
 # property data
 status: "Under Contract"
 payments:
-    cash:
-        title: Cash Price
-        price: $4,499
-        priceDiscount: $7,351
-        downPayment: $250 Down Payment
-        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'
-    terms:
+    0-terms:
         title: Finance Terms
         price: $149/mo
         priceNote: For 48 Months
         downPayment: $449 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
+    1-cash:
+        title: Cash Discount
+        price: $4,499
+        priceDiscount: $7,351
+        downPayment: $250 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'        
 subtitle: 'Ready to build home site'
 description: "<p>This great corner lot is the perfect place to build! Water and electric already run right up to the property line, so it'll be an easy hookup!</p>
 <p>The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages.</p>"

@@ -11,16 +11,16 @@ colorOnScroll: 1
 # property data
 status: "Sold"
 payments:
-    cash:
-        title: Cash Price
-        price: $2,700
-        priceDiscount: $3,605
-        downPayment: $250 Down Payment
-    terms:
+    0-terms:
         title: Finance Terms
         price: $142/mo
         priceNote: For 24 Months
         downPayment: $447 Down Payment
+    1-cash:
+        title: Cash Discount
+        price: $2,700
+        priceDiscount: $3,605
+        downPayment: $250 Down Payment        
 subtitle: '1.5 Acres in Deming NM'
 description: "<p>Take in the amazing mountain views from your own slice of heaven in the Deming Ranchettes subdivision of southwestern New Mexico! This property is just southeast of Deming, and only a 15 minutes drive to the middle of town!</p>
 <p>Easy access to town using maintained dirt roads in the subdivision and paved roads closer to town. Jumping on Interstate 10 is easy too, at only 15 minutes from the property.</p>"
