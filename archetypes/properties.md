@@ -3,11 +3,115 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 weight: 100
-downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/'
-heroHeading: 'Work'
-heroSubHeading: 'Our portfolio and previous projects'
-heroBackground: 'https://source.unsplash.com/1600x900/?architecture'
-image: 'work/work1.jpg'
+weight: 2
+# UI stuff
+headerstyle: "page-header-xtrasmall"
+class: "property-page"
+navstyle: ""
+colorOnScroll: 1
+# property data
+status: Available
+payments:
+    cash:
+        title: Cash Price
+        price: $2,999
+        priceDiscount: $4,843
+        downPayment: $250 Down Payment
+        downPayLink: ''
+    terms:
+        title: Finance Terms
+        price: $129/mo
+        priceNote: For 36 Months
+        downPayment: $449 Down Payment
+        downPayLink: ''
+subtitle: "This property would make a great home base for exploring the famous RT-66 that starts nearby!"
+description: "<p>Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!</p>
+<p>The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages.</p>"
+thumbnail: '/img/properties/7030-socorro-dr/33313075-14.jpg'
+sections:
+    info: 
+        state: Arizona
+        county: Mohave
+        acreage: 0.23
+        nearest_city: "Kingman"
+        apn: 333-13-075
+        address: "7030 Socorro Dr"
+        zip: 86401 
+        TAXES: $27.14/year
+        HOA: $124/year
+    features:
+        -
+            icon: fa-th-large
+            label: "ACRES"
+            data: "0.23"
+        -
+            icon: fa-home
+            label: "SUBDIVISION"
+            data: "Valle Vista"
+        -
+            icon: fa-book
+            label: "ZONING"
+            data: "Residential"
+        -
+            icon: fa-road
+            label: "ACCESS"
+            data: "Dirt / Gravel"
+        -
+            icon: fa-plug
+            label: "POWER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "WATER"
+            data: "Nearby"
+        -
+            icon: fa-tint
+            label: "SEPTIC"
+            data: "REQUIRED"
+        -
+            icon: fa-map-marker 
+            label: "COORDINATES"
+            data: "35.418659, -113.869277 NW"
+    nearby:
+        -
+            title: "Mohave County"
+            description: |-
+                Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
+        - 
+          title: Valle Vista Golf Course 
+          link:  http://vallevistart66az.com/
+          phone: 978-723-3701
+        - 
+          title: Valle Vista Property Owners Association
+          phone: 928-757-3213
+          link:  http://www.myvallevista.org
+        - 
+          title: County Website
+          link:	 https://www.mohavecounty.us/default.aspx
+        - 
+          title: Assessor
+          phone: 928-753-0703
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=111
+        - 
+          tile: Treasurer
+          phone: 928-753-0737
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=132
+        -
+          title: Recorder/Clerk
+          phone: 928-753-0701
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=129
+        -
+          title: Planning / Zoning
+          phone: 928-757-0903 
+          link: https://www.mohavecounty.us/ContentPage.aspx?id=124&cid=360 
+        - 
+          title: GIS Website
+          link:	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
+
+resources: 
+- src: "/img/properties/7030-socorro-dr/33313075-1.jpg"
+  name: '7030 Socorro - Valle Vista'
+  title: 
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
