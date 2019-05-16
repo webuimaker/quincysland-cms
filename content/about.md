@@ -18,6 +18,3 @@ he sends us home lots of pictures, and tells us about all the great lands he's v
 ### Contact Us
 
 [Contact us](/contact/) today to find out more about Quincy's Land.
-
-
-Hi! We are Amanda and Jon! We are bargain-hunters at our core, always looking for a deal. That’s how we live our lives, finding cheap ways to outfit our home and family.  For us, the thrill of finding a good deal far surpasses any other typical way to shop. This excitement over time has become a fun hobby of ours. We’ve learned that we have a gift for finding good deals for others as well.  We have expanded into the real estate industry, specifically pure, raw land. We take great pride in finding beautiful, affordable properties for our customers.
