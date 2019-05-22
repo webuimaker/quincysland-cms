@@ -1,1 +1,6 @@
-static/img/** filter=lfs diff=lfs merge=lfs -text
+static/img/**.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/**.png filter=lfs diff=lfs merge=lfs -text
+**.jpg filter=lfs diff=lfs merge=lfs -text
+**.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text

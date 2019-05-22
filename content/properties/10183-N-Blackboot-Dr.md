@@ -2,7 +2,7 @@
 title: '0.23 Acre Corner lot with utilities'
 date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 1
+weight: 100
 # UI stuff
 headerstyle: "page-header-xtrasmall"
 class: "property-page"
@@ -97,7 +97,7 @@ sections:
           phone: 928-753-0703
           link: https://www.mohavecounty.us/ContentPage.aspx?id=111
         - 
-          tile: Treasurer
+          title: Treasurer
           phone: 928-753-0737
           link: https://www.mohavecounty.us/ContentPage.aspx?id=132
         -

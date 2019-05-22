@@ -2,7 +2,7 @@
 title: '1.5 Flat Acres in Deming NM'
 date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 3
+weight: 100
 # UI stuff
 headerstyle: "page-header-xtrasmall"
 class: "property-page"
@@ -82,7 +82,7 @@ sections:
           phone: 575-546-0404
           link: http://www.lunacountynm.us/government/assessor/index.php
         - 
-          tile: Treasurer
+          title: Treasurer
           phone: 575-546-0401
           link: http://www.lunacountynm.us/government/treasurer/index.php
         -

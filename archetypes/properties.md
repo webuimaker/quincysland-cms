@@ -93,7 +93,7 @@ sections:
           phone: 928-753-0703
           link: https://www.mohavecounty.us/ContentPage.aspx?id=111
         - 
-          tile: Treasurer
+          title: Treasurer
           phone: 928-753-0737
           link: https://www.mohavecounty.us/ContentPage.aspx?id=132
         -
