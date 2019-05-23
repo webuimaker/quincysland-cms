@@ -24,8 +24,10 @@ payments:
         downPayment: $399 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/quincys-land/343-20-249-cash'
 subtitle: "Ready to build! Mobile Homes allowed."
-description: "<p>Escape to Meadview where you'll be surrounded by rising mountain peaks</p>
-<p></p>"
+description: "<p>Escape to Meadview where you'll be surrounded by rising mountain peaks!</p>
+<p>For you boater and fishers out there, Meadview has access to Lake Mead, the largest man-made lake in the United States.
+If you travel by foot, the area is surrounded by canyons and washes perfect for exploring.</p>
+<p>Yes, mobile homes are allowed on this lot!</p>"
 thumbnail: '/img/properties/175-e-stanton-dr/stanton-6.png'
 sections:
     info: 

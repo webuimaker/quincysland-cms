@@ -24,8 +24,10 @@ payments:
         downPayment: $399 Down Payment
         downPayLink: 'https://app.geekpay.io/dp/quincys-land/343-26-081-down-payment-cash'
 subtitle: "Ready to build! Mobile Homes allowed."
-description: "<p>Escape to Meadview where you'll be surrounded by rising mountain peaks</p>
-<p></p>"
+description: "<p>Meadview sits in the high desert surrounded by views of the amazing Grand Wash Cliffs.</p>
+<p>During the day you can explore by foot, ATV, horse, or boat.</p>
+<p>Night time brings an exciting collection of community events, and AMAZING stargazing.</p>
+<p>Yes, mobile homes are allowed on this lot!</p>"
 thumbnail: '/img/properties/30475-stillwater-dr/stillwater-5.png'
 sections:
     info: 
