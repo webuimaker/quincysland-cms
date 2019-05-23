@@ -16,13 +16,13 @@ payments:
         price: $169/mo
         priceNote: For 36 Months
         downPayment: $399 Down Payment
-        downPayLink: ''
+        downPayLink: 'https://app.geekpay.io/dp/quincys-land/343-20-249-terms'
     bcash:
         title: Cash Discount 
         price: $4,499
         priceDiscount: $6,499
         downPayment: $399 Down Payment
-        downPayLink: ''
+        downPayLink: 'https://app.geekpay.io/dp/quincys-land/343-20-249-cash'
 subtitle: "Ready to build! Mobile Homes allowed."
 description: "<p>Escape to Meadview where you'll be surrounded by rising mountain peaks</p>
 <p></p>"
