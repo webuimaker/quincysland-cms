@@ -67,7 +67,7 @@
         <h3>Property Information</h3>
         <div class="row">
           {{ range $key, $value := .Params.sections.info }}
-          <div class="col-2">
+          <div class="col-sm-2">
             <span class="text-muted text-uppercase">{{ $key }}</span>
             <br>
             <span>{{ $value }}</span>
@@ -79,7 +79,7 @@
         <h3>Features</h3>
         <div class="row">
           {{ range $feature := .Params.sections.features }}
-          <div class="col-3 mb-4">
+          <div class="col-sm-3 mb-4">
             <i class="fa {{ $feature.icon }} fa-4x red" aria-hidden="true"></i>
             <br>
             <span>{{ $feature.data }}</span>
