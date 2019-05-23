@@ -9,7 +9,7 @@ class: "property-page"
 navstyle: ""
 colorOnScroll: 1
 # property data
-status: Coming Soon
+status: Available
 payments:
     aterms:
         title: Finance Terms
