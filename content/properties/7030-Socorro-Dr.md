@@ -15,14 +15,14 @@ payments:
         title: Finance Terms
         price: $129/mo
         priceNote: For 36 Months
-        downPayment: $449 Down Payment
-        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-terms-down-payment'
+        downPayment: $199 Down Payment
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-075-terms-down-payment'
     bcash:
         title: Cash Discount 
         price: $2,999
         priceDiscount: $4,843
         downPayment: $250 Down Payment
-        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-141-cash-down-payment'        
+        downPayLink: 'https://app.geekpay.io/dp/aj-land-finders/333-13-075-cash-down-payment'
 subtitle: "This property would make a great home base for exploring the famous RT-66 that starts nearby!"
 description: "<p>Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!</p>
 <p>The Valle Vista community features an 18 Hole Championship Golf Course complete with Club House, Restaurant & Bar, and Pro Shop. Located right in the community is also a beautiful park that includes a community pool, tennis courts, and playground. The community calendar is jam-packed with activities for all ages.</p>"
