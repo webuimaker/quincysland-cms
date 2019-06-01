@@ -12,17 +12,17 @@ colorOnScroll: 1
 # property data
 status: Available
 payments:
-    cash:
-        title: Cash Price
-        price: $2,999
-        priceDiscount: $4,843
-        downPayment: $250 Down Payment
-        downPayLink: ''
-    terms:
+    0-terms:
         title: Finance Terms
         price: $129/mo
         priceNote: For 36 Months
         downPayment: $449 Down Payment
+        downPayLink: ''
+    1-cash:
+        title: Cash Price
+        price: $2,999
+        priceDiscount: $4,843
+        downPayment: $250 Down Payment
         downPayLink: ''
 subtitle: "This property would make a great home base for exploring the famous RT-66 that starts nearby!"
 description: "<p>Mohave County is seeing rising home values as people seek to escape the busy cities and enjoy the crystal clear blue skies - now is the time to invest!</p>
@@ -77,6 +77,7 @@ sections:
             title: "Mohave County"
             description: |-
                 Mohave County is home to so many great adventure opportunities! You can hang out above the Grand Canyon on the Skywalk, see London Bridge or explore Parashant National Monument Park. If water is more your thing, Lake Havasu is just an hour away. 
+    county:
         - 
           title: Valle Vista Golf Course 
           link:  http://vallevistart66az.com/
