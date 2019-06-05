@@ -2,7 +2,7 @@
 title: '0.15 Acres near the Grand Canyon'
 date: 2019-01-09T12:33:46+10:00
 draft: false
-weight: 3
+weight: 2
 # UI stuff
 headerstyle: "page-header-xtrasmall"
 class: "property-page"
@@ -28,7 +28,7 @@ description: "<p>Escape to Meadview where you'll be surrounded by rising mountai
 <p>For you boater and fishers out there, Meadview has access to Lake Mead, the largest man-made lake in the United States.
 If you travel by foot, the area is surrounded by canyons and washes perfect for exploring.</p>
 <p>Yes, mobile homes are allowed on this lot!</p>"
-thumbnail: '/img/properties/175-e-stanton-dr/stanton-6.png'
+thumbnail: '/img/properties/175-e-stanton-dr/Drone-6.png'
 sections:
     info: 
         state: Arizona
@@ -102,6 +102,51 @@ sections:
           link:	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
 
 resources: 
+- src: "/img/properties/175-e-stanton-dr/Drone-6.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-15.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-1.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-2.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-3.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-4.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-5.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-7.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-8.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-9.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-10.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-11.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-12.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-13.png"
+  name: '175 E Stanton - Meadview'
+  title: 
+- src: "/img/properties/175-e-stanton-dr/Drone-14.png"
+  name: '175 E Stanton - Meadview'
+  title: 
 - src: "/img/properties/175-e-stanton-dr/stanton-1.png"
   name: '175 E Stanton - Meadview'
   title: 

@@ -28,7 +28,7 @@ description: "<p>Meadview sits in the high desert surrounded by views of the ama
 <p>During the day you can explore by foot, ATV, horse, or boat.</p>
 <p>Night time brings an exciting collection of community events, and AMAZING stargazing.</p>
 <p>Yes, mobile homes are allowed on this lot!</p>"
-thumbnail: '/img/properties/30475-stillwater-dr/stillwater-5.png'
+thumbnail: '/img/properties/30475-stillwater-dr/Drone-13.png'
 sections:
     info: 
         state: Arizona
@@ -103,6 +103,39 @@ sections:
           link:	https://mcgis2.mohavecounty.us/html5/?viewer=moh&run=ParcelIDSearch&ParcelId
 
 resources: 
+- src: "/img/properties/30475-stillwater-dr/Drone-13.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-14.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-1.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-2.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-3.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-4.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-5.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-6.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-7.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-8.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
+- src: "/img/properties/30475-stillwater-dr/Drone-16.png"
+  name: '30475 N Stillwater - Meadview'
+  title: 
 - src: "/img/properties/30475-stillwater-dr/stillwater-1.png"
   name: '30475 N Stillwater - Meadview'
   title: 
@@ -119,12 +152,6 @@ resources:
   name: '30475 N Stillwater - Meadview'
   title: 
 - src: "/img/properties/30475-stillwater-dr/stillwater-6.png"
-  name: '30475 N Stillwater - Meadview'
-  title: 
-- src: "/img/properties/30475-stillwater-dr/stillwater-7.png"
-  name: '30475 N Stillwater - Meadview'
-  title: 
-- src: "/img/properties/30475-stillwater-dr/stillwater-8.png"
   name: '30475 N Stillwater - Meadview'
   title: 
 - src: "/img/properties/30475-stillwater-dr/stillwater-9.png"
