@@ -35,21 +35,24 @@ def watermark_with_transparency(input_image_path,
 
     pos_x = width - wm_width
     pos_y = height - wm_height - 5
-    pos_y = 0
 
-    pos_x = 1280 - wm_width
-    pos_y = 720 - wm_height - 5
+    mySize = (1280, 720)
+    if width > mySize[0]:
+        pos_x = mySize[0] - wm_width
+        pos_y = mySize[1] - wm_height - 5
  
     # use base image to create a new file
     transparent = Image.new('RGBA', (width, height), (0,0,0,0))
     transparent.paste(base_image, (0,0))
     # Resize!
-    transparent.thumbnail((1280, 720))
+    if width > mySize[0]:
+        transparent.thumbnail(mysize)
     # Now add watermark
     transparent.paste(watermark, (pos_x, pos_y), mask=watermark)
     if display_preview:
         transparent.show()
     transparent.save(output_image_path)
+    print("Saved {}".format(output_image_path))
 
     return
 
